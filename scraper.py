@@ -128,7 +128,7 @@ def scrape_courses() -> list[dict]:
             "locationAbbr": loc_abbr,
             "locationFull": loc_full,
             "status": status,
-            "url": f"https://ddmpraha.cz/karlinske-spektrum/krouzky#id={cid}",
+            "url": f"https://ddmpraha.cz/karlinske-spektrum/krouzky?id={cid}",
         })
 
     return courses

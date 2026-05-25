@@ -54,6 +54,8 @@
     .status-custom { background: #fef9c3; color: #713f12; }
     .course-card .delete-btn { position: absolute; top: 38px; right: 10px; background: none; border: none; color: var(--danger); cursor: pointer; font-size: 0.8rem; padding: 2px 6px; border-radius: 4px; }
     .course-card .delete-btn:hover { background: #fee2e2; }
+    .course-card .ddm-link { display: inline-block; margin-top: 6px; font-size: 0.8rem; color: var(--primary); text-decoration: none; padding: 3px 10px; border: 1px solid var(--primary); border-radius: 14px; transition: all 0.15s; }
+    .course-card .ddm-link:hover { background: var(--primary); color: #fff; }
     .course-count { font-size: 0.85rem; color: var(--muted); margin-bottom: 12px; }
 
     /* Horizontal calendar – CSS Grid based */
@@ -356,6 +358,7 @@ function renderCourses() {
         <div style="margin-top:6px">
           ${c.schedules.map(s => `<span class="schedule-badge">${s.day} ${s.timeFrom}–${s.timeTo}</span>`).join('')}
         </div>
+        ${c.url ? `<a class="ddm-link" href="${c.url}" target="_blank" onclick="event.stopPropagation()">Detail na DDM webu &rarr;</a>` : ''}
       </div>`;
   }).join('');
 }
