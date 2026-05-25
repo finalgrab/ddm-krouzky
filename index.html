@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DDM Kroužky – Plánovač</title>
+  <style>
+    :root {
+      --bg: #f5f5f7;
+      --card-bg: #fff;
+      --primary: #2563eb;
+      --primary-light: #dbeafe;
+      --danger: #dc2626;
+      --success: #16a34a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --radius: 10px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: #1f2937; }
+    .container { max-width: 1400px; margin: 0 auto; padding: 0 16px; }
+
+    header { background: var(--primary); color: #fff; padding: 16px 0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+    header h1 { font-size: 1.3rem; font-weight: 600; }
+    header .subtitle { font-size: 0.85rem; opacity: 0.8; }
+
+    .tabs { display: flex; gap: 0; background: #fff; border-radius: var(--radius); margin: 16px 0; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .tab { flex: 1; padding: 12px 16px; text-align: center; cursor: pointer; font-weight: 500; border: none; background: #fff; font-size: 0.95rem; transition: all 0.2s; }
+    .tab:hover { background: var(--primary-light); }
+    .tab.active { background: var(--primary); color: #fff; }
+
+    .filters { background: var(--card-bg); border-radius: var(--radius); padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .filters h3 { font-size: 0.9rem; margin-bottom: 8px; color: var(--muted); }
+    .filter-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+    .filter-btn { padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); background: #fff; cursor: pointer; font-size: 0.85rem; transition: all 0.15s; }
+    .filter-btn:hover { border-color: var(--primary); }
+    .filter-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .filter-search { width: 100%; padding: 8px 14px; border-radius: 20px; border: 1px solid var(--border); font-size: 0.9rem; outline: none; }
+    .filter-search:focus { border-color: var(--primary); box-shadow: 0 0 0 2px var(--primary-light); }
+
+    .courses-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; margin-bottom: 24px; }
+    .course-card { background: var(--card-bg); border-radius: var(--radius); padding: 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); cursor: pointer; border: 2px solid transparent; transition: all 0.15s; position: relative; }
+    .course-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12); transform: translateY(-1px); }
+    .course-card.selected { border-color: var(--primary); background: var(--primary-light); }
+    .course-card .name { font-weight: 600; font-size: 0.95rem; margin-bottom: 6px; padding-right: 80px; }
+    .course-card .meta { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+    .course-card .meta span { display: inline-block; margin-right: 12px; }
+    .course-card .schedule-badge { display: inline-block; background: #f0f0f0; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; margin: 2px 2px 2px 0; font-weight: 500; }
+    .course-card .status { position: absolute; top: 10px; right: 10px; font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 10px; }
+    .status-obsazeno { background: #fee2e2; color: var(--danger); }
+    .status-posledni { background: #fef3c7; color: #92400e; }
+    .status-nahradnici { background: #fce7f3; color: #9d174d; }
+    .status-volna { background: #dcfce7; color: var(--success); }
+    .status-custom { background: #fef9c3; color: #713f12; }
+    .course-card .delete-btn { position: absolute; top: 38px; right: 10px; background: none; border: none; color: var(--danger); cursor: pointer; font-size: 0.8rem; padding: 2px 6px; border-radius: 4px; }
+    .course-card .delete-btn:hover { background: #fee2e2; }
+    .course-count { font-size: 0.85rem; color: var(--muted); margin-bottom: 12px; }
+
+    /* Horizontal calendar – CSS Grid based */
+    .calendar-section { margin-bottom: 32px; }
+    .calendar-section h2 { font-size: 1.1rem; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+    .hcal { background: var(--card-bg); border-radius: var(--radius); overflow-x: auto; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .hcal-header { display: grid; grid-template-columns: 80px repeat(var(--slots), 1fr); border-bottom: 2px solid var(--border); }
+    .hcal-header .corner { background: #f9fafb; padding: 8px; }
+    .hcal-header .time-label { background: var(--primary); color: #fff; padding: 6px 2px; font-size: 0.72rem; font-weight: 600; text-align: center; border-left: 1px solid rgba(255,255,255,0.2); }
+    .hcal-header .time-label.half { background: #3b82f6; font-weight: 400; font-size: 0.65rem; }
+
+    .hcal-row { display: grid; grid-template-columns: 80px 1fr; border-bottom: 1px solid var(--border); }
+    .hcal-row .day-label { background: #f9fafb; font-weight: 600; font-size: 0.85rem; padding: 8px 10px; border-right: 2px solid var(--border); display: flex; align-items: flex-start; padding-top: 10px; white-space: nowrap; }
+    .hcal-row .day-grid { display: grid; grid-template-columns: repeat(var(--slots), 1fr); position: relative; min-height: 36px; }
+    /* Subtle grid lines for each half-hour */
+    .hcal-row .grid-line { border-left: 1px solid var(--border); grid-row: 1 / -1; pointer-events: none; }
+    .hcal-row .grid-line.full-hour { border-left-color: #d1d5db; }
+
+    .hcal-event { border-radius: 4px; padding: 3px 6px; font-size: 0.78rem; font-weight: 500; overflow: hidden; cursor: pointer; line-height: 1.3; min-height: 28px; display: flex; align-items: center; margin: 1px 1px; white-space: nowrap; text-overflow: ellipsis; }
+    .hcal-event:hover { filter: brightness(0.92); }
+    .hcal-event .ev-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
+    .hcal-event.custom-ev { border-style: dashed !important; }
+
+    .loc-legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; font-size: 0.8rem; }
+    .loc-legend-item { display: flex; align-items: center; gap: 4px; }
+    .loc-legend-swatch { width: 14px; height: 14px; border-radius: 3px; }
+
+    .custom-section { background: var(--card-bg); border-radius: var(--radius); padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+    .custom-section h3 { font-size: 1rem; margin-bottom: 12px; }
+    .custom-form { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr auto; gap: 8px; align-items: end; margin-bottom: 12px; }
+    .custom-form label { font-size: 0.8rem; color: var(--muted); display: block; margin-bottom: 2px; }
+    .custom-form input, .custom-form select { padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.85rem; width: 100%; }
+    .custom-form button { padding: 6px 16px; background: var(--success); color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 0.85rem; white-space: nowrap; }
+    .custom-form button:hover { filter: brightness(0.9); }
+    .custom-list { display: flex; flex-direction: column; gap: 6px; }
+    .custom-item { display: flex; align-items: center; gap: 10px; padding: 8px 12px; background: #f9fafb; border-radius: 6px; font-size: 0.85rem; }
+    .custom-item .ci-name { font-weight: 600; flex: 1; }
+    .custom-item .ci-detail { color: var(--muted); font-size: 0.8rem; }
+    .custom-item .ci-remove { background: none; border: none; color: var(--danger); cursor: pointer; font-size: 1.1rem; padding: 0 4px; }
+
+    .empty-state { text-align: center; padding: 48px 16px; color: var(--muted); }
+    .empty-state p { font-size: 0.95rem; }
+    .badge-count { background: var(--primary); color: #fff; font-size: 0.75rem; padding: 2px 8px; border-radius: 10px; }
+    .scraped-info { font-size: 0.8rem; color: var(--muted); text-align: center; padding: 8px; }
+
+    @media (max-width: 768px) {
+      .courses-grid { grid-template-columns: 1fr; }
+      .custom-form { grid-template-columns: 1fr 1fr; }
+      .hcal-header, .hcal-row { min-width: 900px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>DDM Karlínské Spektrum – Plánovač kroužků</h1>
+    <div class="subtitle">Vojta (11) &bull; Kryštof (10) &bull; Eli (7)</div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="tabs" id="childTabs">
+    <div class="tab active" data-child="vojta">Vojta <span class="badge-count" id="badge-vojta">0</span></div>
+    <div class="tab" data-child="krystof">Kryštof <span class="badge-count" id="badge-krystof">0</span></div>
+    <div class="tab" data-child="eli">Eli <span class="badge-count" id="badge-eli">0</span></div>
+  </div>
+
+  <div class="custom-section">
+    <h3>Vlastní kroužky (odjinud)</h3>
+    <div class="custom-form" id="customForm">
+      <div><label>Název</label><input type="text" id="cName" placeholder="Např. Plavání"></div>
+      <div><label>Den</label>
+        <select id="cDay">
+          <option value="PO">Pondělí</option><option value="ÚT">Úterý</option>
+          <option value="ST">Středa</option><option value="ČT">Čtvrtek</option>
+          <option value="PÁ">Pátek</option>
+        </select>
+      </div>
+      <div><label>Od</label><input type="time" id="cFrom" value="15:00"></div>
+      <div><label>Do</label><input type="time" id="cTo" value="16:00"></div>
+      <div><label>Místo</label><input type="text" id="cLoc" placeholder="Např. ZŠ Lyčkovo"></div>
+      <button onclick="addCustomCourse()">Přidat</button>
+    </div>
+    <div class="custom-list" id="customList"></div>
+  </div>
+
+  <div class="filters">
+    <input type="text" class="filter-search" id="searchInput" placeholder="Hledat kroužek...">
+    <h3 style="margin-top:12px">Den</h3>
+    <div class="filter-row" id="dayFilters">
+      <button class="filter-btn" data-day="PO">Po</button>
+      <button class="filter-btn" data-day="ÚT">Út</button>
+      <button class="filter-btn" data-day="ST">St</button>
+      <button class="filter-btn" data-day="ČT">Čt</button>
+      <button class="filter-btn" data-day="PÁ">Pá</button>
+    </div>
+    <h3>Čas</h3>
+    <div class="filter-row" id="timeFilters">
+      <button class="filter-btn" data-time="early-afternoon">12–15</button>
+      <button class="filter-btn" data-time="afternoon">15–17</button>
+      <button class="filter-btn" data-time="evening">17+</button>
+    </div>
+    <h3>Místo konání</h3>
+    <div class="filter-row" id="locationFilters"></div>
+  </div>
+
+  <div class="course-count" id="courseCount"></div>
+  <div class="courses-grid" id="coursesGrid"></div>
+
+  <div class="calendar-section" id="previewSection" style="display:none">
+    <h2>Zaškrtnuté kroužky v kalendáři</h2>
+    <div class="loc-legend" id="previewLegend"></div>
+    <div id="previewCalendar"></div>
+  </div>
+
+  <div class="calendar-section" id="selectedSection" style="display:none">
+    <h2>Vybrané kroužky <span class="badge-count" id="selectedCount">0</span></h2>
+    <div class="loc-legend" id="selectedLegend"></div>
+    <div id="selectedCalendar"></div>
+  </div>
+
+  <div class="scraped-info" id="scrapedInfo"></div>
+</div>
+
+<script>
+const CHILDREN = {
+  vojta: { name: 'Vojta', age: 11 },
+  krystof: { name: 'Kryštof', age: 10 },
+  eli: { name: 'Eli', age: 7 },
+};
+const DAY_ORDER = ['PO', 'ÚT', 'ST', 'ČT', 'PÁ'];
+const DAY_NAMES = { PO: 'Pondělí', ÚT: 'Úterý', ST: 'Středa', ČT: 'Čtvrtek', PÁ: 'Pátek' };
+const CAL_START = 12;
+const CAL_END = 21;
+const HALF_HOURS = (CAL_END - CAL_START) * 2;
+
+const LOC_COLORS_FIXED = {
+  'KS':  { bg: '#dbeafe', fg: '#1e40af', border: '#2563eb' },
+  'SM':  { bg: '#dcfce7', fg: '#166534', border: '#16a34a' },
+  'SP':  { bg: '#fef3c7', fg: '#92400e', border: '#f59e0b' },
+  'ST':  { bg: '#fce7f3', fg: '#9d174d', border: '#ec4899' },
+  'KK':  { bg: '#e0e7ff', fg: '#3730a3', border: '#6366f1' },
+  'JSZ': { bg: '#ccfbf1', fg: '#115e59', border: '#14b8a6' },
+  'DDM': { bg: '#fee2e2', fg: '#991b1b', border: '#ef4444' },
+  'SPI': { bg: '#f3e8ff', fg: '#6b21a8', border: '#a855f7' },
+  'custom': { bg: '#fef9c3', fg: '#713f12', border: '#ca8a04' },
+};
+
+const DYNAMIC_PALETTE = [
+  { bg: '#fef2f2', fg: '#7f1d1d', border: '#b91c1c' },
+  { bg: '#fff7ed', fg: '#7c2d12', border: '#c2410c' },
+  { bg: '#fefce8', fg: '#713f12', border: '#a16207' },
+  { bg: '#f0fdf4', fg: '#14532d', border: '#15803d' },
+  { bg: '#ecfdf5', fg: '#064e3b', border: '#047857' },
+  { bg: '#f0f9ff', fg: '#0c4a6e', border: '#0369a1' },
+  { bg: '#eef2ff', fg: '#312e81', border: '#4338ca' },
+  { bg: '#fdf4ff', fg: '#701a75', border: '#a21caf' },
+  { bg: '#fdf2f8', fg: '#831843', border: '#be185d' },
+  { bg: '#f8fafc', fg: '#334155', border: '#475569' },
+  { bg: '#fffbeb', fg: '#78350f', border: '#b45309' },
+  { bg: '#f5f3ff', fg: '#4c1d95', border: '#6d28d9' },
+];
+let dynamicColorIdx = 0;
+const dynamicColorMap = {};
+
+function getLocColor(locKey) {
+  if (LOC_COLORS_FIXED[locKey]) return LOC_COLORS_FIXED[locKey];
+  if (!dynamicColorMap[locKey]) {
+    dynamicColorMap[locKey] = DYNAMIC_PALETTE[dynamicColorIdx % DYNAMIC_PALETTE.length];
+    dynamicColorIdx++;
+  }
+  return dynamicColorMap[locKey];
+}
+
+function parseSchoolName(name) {
+  const m = name.match(/^((?:ZŠ|VOŠ|MŠ|SŠ|CPD)\s+[^–\-]+?)\s*[–\-]\s*(.+)$/);
+  if (m) return { school: m[1].trim(), displayName: m[2].trim() };
+  return null;
+}
+
+// Scraped courses (immutable after load)
+let scrapedCourses = [];
+// All courses = scraped + custom for current child (rebuilt dynamically)
+let allCourses = [];
+let currentChild = 'vojta';
+let selectedCourses = { vojta: new Set(), krystof: new Set(), eli: new Set() };
+let checkedCourses = { vojta: new Set(), krystof: new Set(), eli: new Set() };
+// Custom courses stored per child as raw data; converted to course objects on rebuild
+let customCoursesRaw = { vojta: [], krystof: [], eli: [] };
+let filters = { days: new Set(), times: new Set(), locations: new Set(), search: '' };
+
+try {
+  const saved = JSON.parse(localStorage.getItem('ddm-selected') || '{}');
+  for (const child of Object.keys(CHILDREN)) if (saved[child]) selectedCourses[child] = new Set(saved[child]);
+  const savedChecked = JSON.parse(localStorage.getItem('ddm-checked') || '{}');
+  for (const child of Object.keys(CHILDREN)) if (savedChecked[child]) checkedCourses[child] = new Set(savedChecked[child]);
+  const savedCustom = JSON.parse(localStorage.getItem('ddm-custom') || '{}');
+  for (const child of Object.keys(CHILDREN)) if (savedCustom[child]) customCoursesRaw[child] = savedCustom[child];
+} catch(e) {}
+
+function saveState() {
+  const obj = {}, obj2 = {};
+  for (const child of Object.keys(CHILDREN)) {
+    obj[child] = [...selectedCourses[child]];
+    obj2[child] = [...checkedCourses[child]];
+  }
+  localStorage.setItem('ddm-selected', JSON.stringify(obj));
+  localStorage.setItem('ddm-checked', JSON.stringify(obj2));
+  localStorage.setItem('ddm-custom', JSON.stringify(customCoursesRaw));
+}
+
+// Convert a raw custom course to a full course object (negative ID)
+function customToCourse(raw) {
+  const locKey = raw.location ? 'custom:' + raw.location : 'custom';
+  const locLabel = raw.location || 'Vlastní';
+  return {
+    id: -raw.id, // negative to distinguish from scraped
+    name: raw.name,
+    displayName: raw.name,
+    ageFrom: 0, ageTo: 99,
+    schedules: [{ day: raw.day, dayFull: DAY_NAMES[raw.day], timeFrom: raw.timeFrom, timeTo: raw.timeTo }],
+    locKey, locLabel,
+    locationAbbr: 'custom', locationFull: locLabel,
+    status: 'VLASTNÍ',
+    isCustom: true,
+    customRawId: raw.id, // reference back to raw data for deletion
+    url: '',
+    forChild: null, // will be set per-child
+  };
+}
+
+// Rebuild allCourses from scraped + current child's custom courses
+function rebuildAllCourses() {
+  const customs = (customCoursesRaw[currentChild] || []).map(customToCourse);
+  allCourses = [...scrapedCourses, ...customs];
+}
+
+function getStatusClass(s) {
+  if (s === 'VLASTNÍ') return 'status-custom';
+  if (s.includes('OBSAZENO')) return 'status-obsazeno';
+  if (s.includes('POSLEDNÍ')) return 'status-posledni';
+  if (s.includes('NÁHRADNÍCI')) return 'status-nahradnici';
+  return 'status-volna';
+}
+function getStatusLabel(s) {
+  if (s === 'VLASTNÍ') return 'Vlastní';
+  if (s.includes('OBSAZENO')) return 'Obsazeno';
+  if (s.includes('POSLEDNÍ')) return 'Posl. místa';
+  if (s.includes('NÁHRADNÍCI')) return 'Náhradníci';
+  return 'Volné';
+}
+function matchesAge(c, child) {
+  if (c.isCustom) return true; // custom courses always visible for current child
+  const a = CHILDREN[child].age;
+  return a >= c.ageFrom && a <= c.ageTo;
+}
+
+function matchesFilters(course) {
+  if (filters.search && !course.name.toLowerCase().includes(filters.search.toLowerCase())
+      && !course.displayName.toLowerCase().includes(filters.search.toLowerCase())) return false;
+  if (filters.days.size > 0 && !course.schedules.some(s => filters.days.has(s.day))) return false;
+  if (filters.times.size > 0) {
+    const ok = course.schedules.some(s => {
+      const h = parseInt(s.timeFrom);
+      return (filters.times.has('early-afternoon') && h >= 12 && h < 15)
+        || (filters.times.has('afternoon') && h >= 15 && h < 17)
+        || (filters.times.has('evening') && h >= 17);
+    });
+    if (!ok) return false;
+  }
+  if (filters.locations.size > 0 && !filters.locations.has(course.locKey)) return false;
+  return true;
+}
+
+function getFilteredCourses() {
+  return allCourses.filter(c => matchesAge(c, currentChild)).filter(matchesFilters);
+}
+
+function renderCourses() {
+  const grid = document.getElementById('coursesGrid');
+  const filtered = getFilteredCourses();
+  document.getElementById('courseCount').textContent =
+    `${filtered.length} kroužků pro ${CHILDREN[currentChild].name} (${CHILDREN[currentChild].age} let)`;
+  if (!filtered.length) { grid.innerHTML = '<div class="empty-state"><p>Žádné kroužky neodpovídají filtrům.</p></div>'; return; }
+  grid.innerHTML = filtered.map(c => {
+    const isChecked = checkedCourses[currentChild].has(c.id);
+    const deleteBtn = c.isCustom
+      ? `<button class="delete-btn" onclick="event.stopPropagation();deleteCustomCourse(${c.customRawId})" title="Smazat kroužek">Smazat</button>`
+      : '';
+    return `
+      <div class="course-card ${isChecked ? 'selected' : ''}" onclick="toggleChecked(${c.id})">
+        <div class="status ${getStatusClass(c.status)}">${getStatusLabel(c.status)}</div>
+        ${deleteBtn}
+        <div class="name">${c.displayName}</div>
+        <div class="meta">
+          <span>🎂 ${c.isCustom ? 'všechny věky' : c.ageFrom + '–' + c.ageTo + ' let'}</span>
+          <span>📍 ${c.locLabel}</span>
+        </div>
+        <div style="margin-top:6px">
+          ${c.schedules.map(s => `<span class="schedule-badge">${s.day} ${s.timeFrom}–${s.timeTo}</span>`).join('')}
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function toggleChecked(id) {
+  const s = checkedCourses[currentChild]; s.has(id) ? s.delete(id) : s.add(id);
+  saveState(); renderCourses(); renderPreviewCalendar();
+}
+function toggleSelected(id) {
+  const s = selectedCourses[currentChild]; s.has(id) ? s.delete(id) : s.add(id);
+  saveState(); renderSelectedCalendar(); updateBadges();
+}
+
+function timeToSlot(t) {
+  const [h, m] = t.split(':').map(Number);
+  return Math.max(0, Math.min(HALF_HOURS, (h * 60 + m - CAL_START * 60) / 30));
+}
+
+// Build horizontal calendar — no more separate customList param
+function buildHCalendar(containerEl, legendEl, courseIds, onClickFn) {
+  const courses = allCourses.filter(c => courseIds.has(c.id));
+  if (!courses.length) {
+    containerEl.innerHTML = '<div class="empty-state"><p>Zatím žádné kroužky.</p></div>';
+    if (legendEl) legendEl.innerHTML = '';
+    return;
+  }
+
+  const eventsByDay = {};
+  DAY_ORDER.forEach(d => eventsByDay[d] = []);
+  const usedLocs = new Map();
+
+  courses.forEach(c => {
+    c.schedules.forEach(s => {
+      if (!eventsByDay[s.day]) return;
+      eventsByDay[s.day].push({
+        id: c.id, name: c.displayName, timeFrom: s.timeFrom, timeTo: s.timeTo,
+        locKey: c.locKey, locLabel: c.locLabel, isCustom: !!c.isCustom,
+      });
+      usedLocs.set(c.locKey, c.locLabel);
+    });
+  });
+
+  if (legendEl) {
+    legendEl.innerHTML = [...usedLocs.entries()].map(([key, label]) => {
+      const col = getLocColor(key);
+      return `<div class="loc-legend-item"><div class="loc-legend-swatch" style="background:${col.bg};border:1px solid ${col.border}"></div>${label}</div>`;
+    }).join('');
+  }
+
+  DAY_ORDER.forEach(d => {
+    const evts = eventsByDay[d].sort((a, b) => timeToSlot(a.timeFrom) - timeToSlot(b.timeFrom));
+    const lanes = [];
+    evts.forEach(ev => {
+      const start = timeToSlot(ev.timeFrom);
+      let lane = lanes.findIndex(end => end <= start);
+      if (lane === -1) { lane = lanes.length; lanes.push(0); }
+      lanes[lane] = timeToSlot(ev.timeTo);
+      ev.lane = lane;
+    });
+    eventsByDay[d].maxLanes = lanes.length || 1;
+  });
+
+  let html = `<div class="hcal" style="--slots:${HALF_HOURS}">`;
+  html += `<div class="hcal-header" style="min-width:900px"><div class="corner"></div>`;
+  for (let h = CAL_START; h < CAL_END; h++) {
+    html += `<div class="time-label">${String(h).padStart(2,'0')}</div>`;
+    html += `<div class="time-label half">30</div>`;
+  }
+  html += '</div>';
+
+  DAY_ORDER.forEach(d => {
+    const maxLanes = eventsByDay[d].maxLanes;
+    html += `<div class="hcal-row" style="min-width:900px"><div class="day-label">${DAY_NAMES[d]}</div>`;
+    html += `<div class="day-grid" style="--slots:${HALF_HOURS};grid-template-rows:repeat(${maxLanes},30px)">`;
+    for (let i = 0; i < HALF_HOURS; i++) {
+      html += `<div class="grid-line ${i%2===0?'full-hour':''}" style="grid-column:${i+1};grid-row:1/${maxLanes+1}"></div>`;
+    }
+    eventsByDay[d].forEach(ev => {
+      const colStart = Math.floor(timeToSlot(ev.timeFrom)) + 1;
+      const colEnd = Math.ceil(timeToSlot(ev.timeTo)) + 1;
+      const col = getLocColor(ev.locKey);
+      const cls = ev.isCustom ? 'custom-ev' : '';
+      // All events are clickable (custom have negative IDs which work fine)
+      html += `<div class="hcal-event ${cls}" style="grid-column:${colStart}/${colEnd};grid-row:${ev.lane+1};background:${col.bg};color:${col.fg};border-left:3px solid ${col.border}" title="${ev.name} (${ev.timeFrom}–${ev.timeTo}) – ${ev.locLabel}" onclick="event.stopPropagation();${onClickFn}(${ev.id})">`;
+      html += `<span class="ev-name">${ev.name}</span></div>`;
+    });
+    html += '</div></div>';
+  });
+
+  html += '</div>';
+  containerEl.innerHTML = html;
+}
+
+function renderPreviewCalendar() {
+  const section = document.getElementById('previewSection');
+  const checked = checkedCourses[currentChild];
+  if (!checked.size) { section.style.display = 'none'; return; }
+  section.style.display = 'block';
+  buildHCalendar(document.getElementById('previewCalendar'), document.getElementById('previewLegend'), checked, 'toggleSelected');
+}
+
+function renderSelectedCalendar() {
+  const section = document.getElementById('selectedSection');
+  const sel = selectedCourses[currentChild];
+  document.getElementById('selectedCount').textContent = sel.size;
+  if (!sel.size) { section.style.display = 'none'; return; }
+  section.style.display = 'block';
+  buildHCalendar(document.getElementById('selectedCalendar'), document.getElementById('selectedLegend'), sel, 'toggleSelected');
+}
+
+function updateBadges() {
+  for (const child of Object.keys(CHILDREN))
+    document.getElementById(`badge-${child}`).textContent = selectedCourses[child].size;
+}
+
+function renderLocationFilters() {
+  const locs = new Map();
+  allCourses.filter(c => matchesAge(c, currentChild)).forEach(c => {
+    if (!locs.has(c.locKey)) locs.set(c.locKey, c.locLabel);
+  });
+  document.getElementById('locationFilters').innerHTML = [...locs.entries()]
+    .sort((a, b) => a[1].localeCompare(b[1], 'cs'))
+    .map(([key, label]) =>
+      `<button class="filter-btn ${filters.locations.has(key) ? 'active' : ''}" data-loc="${key}">${label}</button>`
+    ).join('');
+}
+
+// Custom courses — add to raw list, rebuild allCourses
+function addCustomCourse() {
+  const name = document.getElementById('cName').value.trim();
+  const day = document.getElementById('cDay').value;
+  const timeFrom = document.getElementById('cFrom').value;
+  const timeTo = document.getElementById('cTo').value;
+  const location = document.getElementById('cLoc').value.trim();
+  if (!name || !timeFrom || !timeTo) return;
+  const rawId = Date.now();
+  customCoursesRaw[currentChild].push({ id: rawId, name, day, timeFrom, timeTo, location });
+  document.getElementById('cName').value = '';
+  document.getElementById('cLoc').value = '';
+  // Auto-check the new custom course
+  checkedCourses[currentChild].add(-rawId);
+  saveState(); rebuildAllCourses(); renderCustomList(); render();
+}
+
+function deleteCustomCourse(rawId) {
+  customCoursesRaw[currentChild] = customCoursesRaw[currentChild].filter(c => c.id !== rawId);
+  // Clean up references
+  const negId = -rawId;
+  checkedCourses[currentChild].delete(negId);
+  selectedCourses[currentChild].delete(negId);
+  saveState(); rebuildAllCourses(); renderCustomList(); render();
+}
+
+function renderCustomList() {
+  const customs = customCoursesRaw[currentChild] || [];
+  document.getElementById('customList').innerHTML = customs.map(c => `
+    <div class="custom-item">
+      <span class="ci-name">${c.name}</span>
+      <span class="ci-detail">${DAY_NAMES[c.day]} ${c.timeFrom}–${c.timeTo}</span>
+      <span class="ci-detail">${c.location || ''}</span>
+      <button class="ci-remove" onclick="deleteCustomCourse(${c.id})">&times;</button>
+    </div>`).join('');
+}
+
+function render() {
+  renderCourses(); renderPreviewCalendar(); renderSelectedCalendar();
+  renderLocationFilters(); renderCustomList(); updateBadges();
+}
+
+// Event handlers
+document.getElementById('childTabs').addEventListener('click', e => {
+  const tab = e.target.closest('.tab');
+  if (!tab) return;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  currentChild = tab.dataset.child;
+  rebuildAllCourses(); render();
+});
+document.getElementById('dayFilters').addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-btn')) return;
+  e.target.classList.toggle('active');
+  const d = e.target.dataset.day;
+  filters.days.has(d) ? filters.days.delete(d) : filters.days.add(d);
+  renderCourses(); renderPreviewCalendar();
+});
+document.getElementById('timeFilters').addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-btn')) return;
+  e.target.classList.toggle('active');
+  const t = e.target.dataset.time;
+  filters.times.has(t) ? filters.times.delete(t) : filters.times.add(t);
+  renderCourses(); renderPreviewCalendar();
+});
+document.getElementById('locationFilters').addEventListener('click', e => {
+  if (!e.target.classList.contains('filter-btn')) return;
+  e.target.classList.toggle('active');
+  const loc = e.target.dataset.loc;
+  filters.locations.has(loc) ? filters.locations.delete(loc) : filters.locations.add(loc);
+  renderCourses(); renderPreviewCalendar();
+});
+document.getElementById('searchInput').addEventListener('input', e => {
+  filters.search = e.target.value;
+  renderCourses();
+});
+
+async function init() {
+  try {
+    const resp = await fetch('data/courses.json');
+    const data = await resp.json();
+
+    scrapedCourses = data.courses.map(c => {
+      const parsed = parseSchoolName(c.name);
+      if (parsed) {
+        return { ...c, displayName: parsed.displayName, locKey: 'school:' + parsed.school, locLabel: parsed.school, isCustom: false };
+      }
+      return { ...c, displayName: c.name, locKey: c.locationAbbr, locLabel: c.locationFull, isCustom: false };
+    });
+
+    rebuildAllCourses();
+    document.getElementById('scrapedInfo').textContent =
+      `Data z: ${new Date(data.scrapedAt).toLocaleString('cs-CZ')} | Celkem ${data.totalCourses} kroužků`;
+    render();
+  } catch (e) {
+    document.getElementById('coursesGrid').innerHTML =
+      '<div class="empty-state"><p>Nepodařilo se načíst data. Spusťte <code>python3 scraper.py</code></p></div>';
+  }
+}
+
+init();
+</script>
+</body>
+</html>

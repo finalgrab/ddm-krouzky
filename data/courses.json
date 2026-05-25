@@ -1,0 +1,3906 @@
+{
+  "scrapedAt": "2026-05-21T03:10:53.030296",
+  "totalCourses": 209,
+  "courses": [
+    {
+      "id": 15522,
+      "name": "3D grafika a 3D tisk",
+      "ageFrom": 11,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15522"
+    },
+    {
+      "id": 15356,
+      "name": "Airsoft I",
+      "ageFrom": 10,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15356"
+    },
+    {
+      "id": 15357,
+      "name": "Airsoft II",
+      "ageFrom": 10,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15357"
+    },
+    {
+      "id": 15535,
+      "name": "Angličtina hravě / mladší",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15535"
+    },
+    {
+      "id": 15536,
+      "name": "Angličtina hravě / starší",
+      "ageFrom": 10,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:15",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15536"
+    },
+    {
+      "id": 15383,
+      "name": "Balet I",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15383"
+    },
+    {
+      "id": 15333,
+      "name": "Capoeira I / začátečníci",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15333"
+    },
+    {
+      "id": 15334,
+      "name": "Capoeira II / starší a pokročilí",
+      "ageFrom": 8,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "18:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15334"
+    },
+    {
+      "id": 15558,
+      "name": "CPD Žlutá Kostička",
+      "ageFrom": 3,
+      "ageTo": 5,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "08:00",
+          "timeTo": "13:00"
+        },
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "08:00",
+          "timeTo": "13:00"
+        },
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "08:00",
+          "timeTo": "13:00"
+        },
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "08:00",
+          "timeTo": "13:00"
+        },
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "08:00",
+          "timeTo": "13:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15558"
+    },
+    {
+      "id": 15374,
+      "name": "Divadelní kroužek I",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:30",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15374"
+    },
+    {
+      "id": 15375,
+      "name": "Divadelní kroužek II",
+      "ageFrom": 11,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15375"
+    },
+    {
+      "id": 15376,
+      "name": "Divadelní kroužek III",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15376"
+    },
+    {
+      "id": 15564,
+      "name": "DJing / dospělí I",
+      "ageFrom": 18,
+      "ageTo": 79,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "19:00",
+          "timeTo": "20:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15564"
+    },
+    {
+      "id": 16210,
+      "name": "DJing / dospělí II",
+      "ageFrom": 18,
+      "ageTo": 79,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "19:15",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16210"
+    },
+    {
+      "id": 15414,
+      "name": "DJing / mírně pokročilí I",
+      "ageFrom": 12,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:30",
+          "timeTo": "18:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15414"
+    },
+    {
+      "id": 15563,
+      "name": "DJing / mírně pokročilí II",
+      "ageFrom": 12,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:00",
+          "timeTo": "19:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15563"
+    },
+    {
+      "id": 15415,
+      "name": "DJing / začátečníci I",
+      "ageFrom": 10,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:45",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15415"
+    },
+    {
+      "id": 15416,
+      "name": "DJing / začátečníci II",
+      "ageFrom": 10,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15416"
+    },
+    {
+      "id": 16219,
+      "name": "DJing / začátečníci III",
+      "ageFrom": 10,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:15",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16219"
+    },
+    {
+      "id": 15538,
+      "name": "Družinka",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:30",
+          "timeTo": "17:00"
+        },
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:30",
+          "timeTo": "17:00"
+        },
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:30",
+          "timeTo": "17:00"
+        },
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15538"
+    },
+    {
+      "id": 16184,
+      "name": "Flétna mírně pokročilí / děti – S. Kropáčková",
+      "ageFrom": 8,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16184"
+    },
+    {
+      "id": 15777,
+      "name": "Flétna pro školáky",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15777"
+    },
+    {
+      "id": 15417,
+      "name": "Flétna příčná / děti – K. Braunová",
+      "ageFrom": 10,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15417"
+    },
+    {
+      "id": 16183,
+      "name": "Flétna začátečníci / děti – S. Kropáčková",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16183"
+    },
+    {
+      "id": 15418,
+      "name": "Flétnička pro předškoláky",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:10",
+          "timeTo": "14:10"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15418"
+    },
+    {
+      "id": 16748,
+      "name": "Freestyle koloběžky / jaro",
+      "ageFrom": 8,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16748"
+    },
+    {
+      "id": 16040,
+      "name": "Graffiti and Street art",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16040"
+    },
+    {
+      "id": 16542,
+      "name": "Graffiti and Street art",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16542"
+    },
+    {
+      "id": 15386,
+      "name": "Hudebně-taneční školička",
+      "ageFrom": 3,
+      "ageTo": 4,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15386"
+    },
+    {
+      "id": 15419,
+      "name": "Hudební laboratoř",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:45",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15419"
+    },
+    {
+      "id": 16751,
+      "name": "In-line brusle / pokročilí / jaro",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16751"
+    },
+    {
+      "id": 16752,
+      "name": "In-line brusle / začátečníci / jaro",
+      "ageFrom": 5,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16752"
+    },
+    {
+      "id": 15523,
+      "name": "IT profík",
+      "ageFrom": 12,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:45",
+          "timeTo": "17:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15523"
+    },
+    {
+      "id": 15336,
+      "name": "Jóga / děti",
+      "ageFrom": 7,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15336"
+    },
+    {
+      "id": 15337,
+      "name": "Jóga / dospělí",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "18:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15337"
+    },
+    {
+      "id": 15338,
+      "name": "Jóga / muži",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "08:30",
+          "timeTo": "09:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15338"
+    },
+    {
+      "id": 15339,
+      "name": "Jóga pro nejmenší",
+      "ageFrom": 5,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15339"
+    },
+    {
+      "id": 15320,
+      "name": "Kajakářský oddíl Štiky",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15320"
+    },
+    {
+      "id": 15778,
+      "name": "Karate / dospělí",
+      "ageFrom": 15,
+      "ageTo": 60,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "18:00",
+          "timeTo": "19:30"
+        },
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "19:00",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15778"
+    },
+    {
+      "id": 15340,
+      "name": "Karate I / mladší",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15340"
+    },
+    {
+      "id": 15341,
+      "name": "Karate II / starší a mírně pokročilí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15341"
+    },
+    {
+      "id": 15460,
+      "name": "Keramika – modelování (dopoledne)",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "10:00",
+          "timeTo": "12:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15460"
+    },
+    {
+      "id": 15461,
+      "name": "Keramika – modelování I",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15461"
+    },
+    {
+      "id": 15462,
+      "name": "Keramika – modelování II",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15462"
+    },
+    {
+      "id": 15463,
+      "name": "Keramika – modelování III",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15463"
+    },
+    {
+      "id": 15464,
+      "name": "Keramika – modelování IV",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15464"
+    },
+    {
+      "id": 15465,
+      "name": "Keramika – točení na kruhu I",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15465"
+    },
+    {
+      "id": 15466,
+      "name": "Keramika – točení na kruhu II",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15466"
+    },
+    {
+      "id": 15467,
+      "name": "Keramika – točení na kruhu III",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15467"
+    },
+    {
+      "id": 15468,
+      "name": "Keramika – točení na kruhu IV",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15468"
+    },
+    {
+      "id": 15469,
+      "name": "Keramika / dospělí I",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:30",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15469"
+    },
+    {
+      "id": 15470,
+      "name": "Keramika / dospělí II",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:30",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15470"
+    },
+    {
+      "id": 15471,
+      "name": "Keramika / mladší I",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15471"
+    },
+    {
+      "id": 15472,
+      "name": "Keramika / mladší II",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15472"
+    },
+    {
+      "id": 15473,
+      "name": "Keramika / starší I",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:45",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15473"
+    },
+    {
+      "id": 15474,
+      "name": "Keramika / starší II",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:45",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15474"
+    },
+    {
+      "id": 15423,
+      "name": "Klavír / děti - V. Rozkovec, B. Slavíková",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        },
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15423"
+    },
+    {
+      "id": 15421,
+      "name": "Klavír / děti – D. Rojek",
+      "ageFrom": 6,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15421"
+    },
+    {
+      "id": 15422,
+      "name": "Klavír / děti – K. Košťálová",
+      "ageFrom": 6,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        },
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15422"
+    },
+    {
+      "id": 15424,
+      "name": "Klavír / děti – M. Laluch",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:00",
+          "timeTo": "18:00"
+        },
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "19:30"
+        },
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        },
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "19:30"
+        },
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15424"
+    },
+    {
+      "id": 15425,
+      "name": "Klavír / dospělí – D. Rojek",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "08:30",
+          "timeTo": "11:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15425"
+    },
+    {
+      "id": 15426,
+      "name": "Klavír / dospělí – K. Košťálová",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        },
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "18:00"
+        },
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "14:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15426"
+    },
+    {
+      "id": 15427,
+      "name": "Klavír / dospělí – L. Hart",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15427"
+    },
+    {
+      "id": 15539,
+      "name": "Klub čtenářský",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15539"
+    },
+    {
+      "id": 15540,
+      "name": "Klub sociálního rozvoje / mladší",
+      "ageFrom": 7,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:30",
+          "timeTo": "14:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15540"
+    },
+    {
+      "id": 15541,
+      "name": "Klub sociálního rozvoje / starší",
+      "ageFrom": 10,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:45",
+          "timeTo": "15:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15541"
+    },
+    {
+      "id": 15443,
+      "name": "Komiks",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:30",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15443"
+    },
+    {
+      "id": 15510,
+      "name": "Kreativní dílna II",
+      "ageFrom": 7,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15510"
+    },
+    {
+      "id": 15444,
+      "name": "Kresba, malba, grafika / dospělí (2 hod.)",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "19:00",
+          "timeTo": "21:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15444"
+    },
+    {
+      "id": 15445,
+      "name": "Kresba, malba, grafika / dospělí (3 hod.)",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "18:00",
+          "timeTo": "21:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15445"
+    },
+    {
+      "id": 15428,
+      "name": "Kytara / děti – J. Hábl",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:00",
+          "timeTo": "17:00"
+        },
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15428"
+    },
+    {
+      "id": 15429,
+      "name": "Kytara / děti – V. Tupý",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        },
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15429"
+    },
+    {
+      "id": 15515,
+      "name": "LEGOmechanika / pokročilí I",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:35",
+          "timeTo": "18:50"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15515"
+    },
+    {
+      "id": 15517,
+      "name": "LEGOmechanika / pokročilí II",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15517"
+    },
+    {
+      "id": 15516,
+      "name": "LEGOmechanika / začátečníci I",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15516"
+    },
+    {
+      "id": 15518,
+      "name": "LEGOmechanika / začátečníci II",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:20",
+          "timeTo": "17:20"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15518"
+    },
+    {
+      "id": 15519,
+      "name": "LEGOrobotika / pokročilí",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:45",
+          "timeTo": "18:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15519"
+    },
+    {
+      "id": 15520,
+      "name": "LEGOrobotika / začátečníci",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15520"
+    },
+    {
+      "id": 16323,
+      "name": "Létání s dronem - jaro",
+      "ageFrom": 10,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16323"
+    },
+    {
+      "id": 15342,
+      "name": "Lezení a lan. aktivity / pokročilí",
+      "ageFrom": 9,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15342"
+    },
+    {
+      "id": 15343,
+      "name": "Lezení a lanové aktivity I",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:30",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15343"
+    },
+    {
+      "id": 15344,
+      "name": "Lezení a lanové aktivity II / mírně pokročilí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15344"
+    },
+    {
+      "id": 15345,
+      "name": "Lezení a lanové aktivity III",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:30",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15345"
+    },
+    {
+      "id": 15346,
+      "name": "Lezení a lanové aktivity IV",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15346"
+    },
+    {
+      "id": 15347,
+      "name": "Lezení a lanové aktivity V",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15347"
+    },
+    {
+      "id": 16225,
+      "name": "Lezení a lanové aktivity VI",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16225"
+    },
+    {
+      "id": 16156,
+      "name": "Malý inženýr I",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16156"
+    },
+    {
+      "id": 15568,
+      "name": "Malý inženýr II",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15568"
+    },
+    {
+      "id": 16242,
+      "name": "Metoda FIE a MIU (Magdalena Hříbalová)",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16242"
+    },
+    {
+      "id": 15524,
+      "name": "Minecraft / mladší I",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15524"
+    },
+    {
+      "id": 15979,
+      "name": "Minecraft / mladší II",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15979"
+    },
+    {
+      "id": 16205,
+      "name": "Minecraft / mladší III",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:25",
+          "timeTo": "16:25"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16205"
+    },
+    {
+      "id": 15883,
+      "name": "Minecraft / pokročilí",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15883"
+    },
+    {
+      "id": 15882,
+      "name": "Minecraft / starší",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15882"
+    },
+    {
+      "id": 16637,
+      "name": "Miniateliér",
+      "ageFrom": 2,
+      "ageTo": 4,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "10:00",
+          "timeTo": "11:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16637"
+    },
+    {
+      "id": 15391,
+      "name": "MJ studio – studiáček tanec FIT",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        },
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15391"
+    },
+    {
+      "id": 15390,
+      "name": "MJ studio – studiáček tanec MINI",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15390"
+    },
+    {
+      "id": 15542,
+      "name": "Mladý cukrář",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15542"
+    },
+    {
+      "id": 15543,
+      "name": "Mladý cukrář II",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15543"
+    },
+    {
+      "id": 15544,
+      "name": "Mladý kuchař",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15544"
+    },
+    {
+      "id": 15392,
+      "name": "Moderní tanec II",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15392"
+    },
+    {
+      "id": 16747,
+      "name": "Nerf / jaro",
+      "ageFrom": 7,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16747"
+    },
+    {
+      "id": 15323,
+      "name": "Paddleboardový kurz KaPrkna",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15323"
+    },
+    {
+      "id": 15348,
+      "name": "Parkour I / začátečníci",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15348"
+    },
+    {
+      "id": 15349,
+      "name": "Parkour II / starší a mírně pokročilí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15349"
+    },
+    {
+      "id": 15447,
+      "name": "Pastelka II",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15447"
+    },
+    {
+      "id": 15448,
+      "name": "Pastelka III",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15448"
+    },
+    {
+      "id": 15726,
+      "name": "Ping pong / začátečníci",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15726"
+    },
+    {
+      "id": 15393,
+      "name": "Pohybové divadlo I",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15393"
+    },
+    {
+      "id": 15534,
+      "name": "Pokusy pro malé vědátory II",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15534"
+    },
+    {
+      "id": 15526,
+      "name": "Programování PC her / pokročilí",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:15",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15526"
+    },
+    {
+      "id": 15527,
+      "name": "Programování PC her / začátečníci I",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15527"
+    },
+    {
+      "id": 15550,
+      "name": "Převod – klub – Jóga pro nejmenší",
+      "ageFrom": 5,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15550"
+    },
+    {
+      "id": 15551,
+      "name": "Převod – klub – Míčovky / Kollárova",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:45",
+          "timeTo": "16:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15551"
+    },
+    {
+      "id": 15553,
+      "name": "Převod – klub – MŠ Pernerova / Pastelka",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "12:30",
+          "timeTo": "13:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15553"
+    },
+    {
+      "id": 15554,
+      "name": "Převod – Klub 1a / pondělí / 13–14 h",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15554"
+    },
+    {
+      "id": 15555,
+      "name": "Převod – Klub 2a / úterý / 13–14 h",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15555"
+    },
+    {
+      "id": 15556,
+      "name": "Převod – Klub 3a / středa / 13–14 h",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15556"
+    },
+    {
+      "id": 15449,
+      "name": "Příprava na talentové zkoušky",
+      "ageFrom": 13,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:00",
+          "timeTo": "20:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15449"
+    },
+    {
+      "id": 15350,
+      "name": "Ranní jóga",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "07:50",
+          "timeTo": "08:50"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15350"
+    },
+    {
+      "id": 15351,
+      "name": "Sebeobrana pro děti",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15351"
+    },
+    {
+      "id": 16749,
+      "name": "Skateboarding I / začátečníci / jaro",
+      "ageFrom": 7,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16749"
+    },
+    {
+      "id": 16750,
+      "name": "Skateboarding II / starší a mírně pokročilí / jaro",
+      "ageFrom": 8,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16750"
+    },
+    {
+      "id": 15775,
+      "name": "Skupinová kytara pro začátečníky",
+      "ageFrom": 12,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15775"
+    },
+    {
+      "id": 15352,
+      "name": "Sportovní školička I",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15352"
+    },
+    {
+      "id": 15355,
+      "name": "Stolní fotbálek",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15355"
+    },
+    {
+      "id": 15354,
+      "name": "Stolní fotbálek / starší a pokročilí",
+      "ageFrom": 10,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15354"
+    },
+    {
+      "id": 15395,
+      "name": "Street dance I – pondělí",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15395"
+    },
+    {
+      "id": 15396,
+      "name": "Street dance I – středa",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15396"
+    },
+    {
+      "id": 15397,
+      "name": "Street dance II",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:45",
+          "timeTo": "18:15"
+        },
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:45",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15397"
+    },
+    {
+      "id": 15316,
+      "name": "Šachy / děti (začátečníci)",
+      "ageFrom": 5,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15316"
+    },
+    {
+      "id": 15314,
+      "name": "Šachy / děti / klub",
+      "ageFrom": 5,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15314"
+    },
+    {
+      "id": 15315,
+      "name": "Šachy / děti / mírně pokročilí",
+      "ageFrom": 7,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15315"
+    },
+    {
+      "id": 15317,
+      "name": "Šachy / dospělí",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:00",
+          "timeTo": "21:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15317"
+    },
+    {
+      "id": 15545,
+      "name": "Šéfkuchař",
+      "ageFrom": 10,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:00",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15545"
+    },
+    {
+      "id": 15399,
+      "name": "Taneční přípravka – pondělí",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15399"
+    },
+    {
+      "id": 16677,
+      "name": "Taneční přípravka – středa",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16677"
+    },
+    {
+      "id": 15512,
+      "name": "Tiffany I",
+      "ageFrom": 14,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "18:00",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15512"
+    },
+    {
+      "id": 15513,
+      "name": "Tiffany II",
+      "ageFrom": 14,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:00",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15513"
+    },
+    {
+      "id": 15325,
+      "name": "Turistický oddíl Tuláci",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15325"
+    },
+    {
+      "id": 15546,
+      "name": "Tvorba deskových her",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:15",
+          "timeTo": "17:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15546"
+    },
+    {
+      "id": 15560,
+      "name": "Tvůrčí psaní I",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15560"
+    },
+    {
+      "id": 15529,
+      "name": "Unreal Engine pro pokročilé",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:30",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15529"
+    },
+    {
+      "id": 15328,
+      "name": "Vodácko-turistický oddíl Lvíčata",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15328"
+    },
+    {
+      "id": 15329,
+      "name": "Vodácko-turistický oddíl Mokro",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15329"
+    },
+    {
+      "id": 15330,
+      "name": "Vodácko-turistický oddíl Neptun",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15330"
+    },
+    {
+      "id": 15331,
+      "name": "Vodácko-turistický oddíl Regent",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15331"
+    },
+    {
+      "id": 15332,
+      "name": "Vodácko-turistický oddíl Tygři",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "17:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15332"
+    },
+    {
+      "id": 15304,
+      "name": "Volejbal dospělí (mírně pokročilí)",
+      "ageFrom": 20,
+      "ageTo": 65,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "18:00",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15304"
+    },
+    {
+      "id": 15298,
+      "name": "VOŠ Kollárova – Míč. hry pro nejmenší",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15298"
+    },
+    {
+      "id": 15450,
+      "name": "Výtvarný ateliér / mládež I",
+      "ageFrom": 12,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "18:00",
+          "timeTo": "20:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15450"
+    },
+    {
+      "id": 15451,
+      "name": "Výtvarný ateliér / mládež II",
+      "ageFrom": 14,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15451"
+    },
+    {
+      "id": 15452,
+      "name": "Výtvarný ateliér / mladší I",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:30",
+          "timeTo": "14:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15452"
+    },
+    {
+      "id": 15453,
+      "name": "Výtvarný ateliér / mladší II",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:30",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15453"
+    },
+    {
+      "id": 15454,
+      "name": "Výtvarný ateliér / mladší III",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15454"
+    },
+    {
+      "id": 15455,
+      "name": "Výtvarný ateliér / mladší IV",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15455"
+    },
+    {
+      "id": 15456,
+      "name": "Výtvarný ateliér / starší I",
+      "ageFrom": 11,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:15",
+          "timeTo": "17:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15456"
+    },
+    {
+      "id": 15457,
+      "name": "Výtvarný ateliér / starší II",
+      "ageFrom": 10,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15457"
+    },
+    {
+      "id": 15458,
+      "name": "Výtvarný ateliér / starší III",
+      "ageFrom": 10,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15458"
+    },
+    {
+      "id": 15432,
+      "name": "Zpěv / děti – L. Paďourová",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15432"
+    },
+    {
+      "id": 15433,
+      "name": "Zpěv / dospělí – L. Paďourová",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15433"
+    },
+    {
+      "id": 15434,
+      "name": "Zpívánky pro předškoláky",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:10",
+          "timeTo": "14:10"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15434"
+    },
+    {
+      "id": 15574,
+      "name": "Zručičky",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15574"
+    },
+    {
+      "id": 15435,
+      "name": "ZŠ Chvaly – Flétna / pokročilí",
+      "ageFrom": 7,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:15",
+          "timeTo": "15:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15435"
+    },
+    {
+      "id": 15436,
+      "name": "ZŠ Chvaly – Flétna I",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "12:15",
+          "timeTo": "13:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15436"
+    },
+    {
+      "id": 15437,
+      "name": "ZŠ Chvaly – Flétna II",
+      "ageFrom": 12,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:15",
+          "timeTo": "14:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15437"
+    },
+    {
+      "id": 15310,
+      "name": "ZŠ Chvaly – Florbal / mladší",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15310"
+    },
+    {
+      "id": 15309,
+      "name": "ZŠ Chvaly – Florbal / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15309"
+    },
+    {
+      "id": 15311,
+      "name": "ZŠ Chvaly – Florbal nejenom",
+      "ageFrom": 12,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15311"
+    },
+    {
+      "id": 15476,
+      "name": "ZŠ Chvaly – Keramika I",
+      "ageFrom": 7,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15476"
+    },
+    {
+      "id": 15477,
+      "name": "ZŠ Chvaly – Keramika II",
+      "ageFrom": 6,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15477"
+    },
+    {
+      "id": 15486,
+      "name": "ZŠ Chvaly – Keramika III",
+      "ageFrom": 6,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15486"
+    },
+    {
+      "id": 16235,
+      "name": "ZŠ Chvaly – Keramika IV",
+      "ageFrom": 8,
+      "ageTo": 20,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16235"
+    },
+    {
+      "id": 15318,
+      "name": "ZŠ Chvaly – Šachy, dáma logické a deskové hry",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15318"
+    },
+    {
+      "id": 15459,
+      "name": "ZŠ Chvaly – Výtvarka",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15459"
+    },
+    {
+      "id": 15954,
+      "name": "ZŠ Kořenského – Sálová kopaná",
+      "ageFrom": 7,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15954"
+    },
+    {
+      "id": 15440,
+      "name": "ZŠ LN – Flétna zobcová",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:30",
+          "timeTo": "18:00"
+        },
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15440"
+    },
+    {
+      "id": 15478,
+      "name": "ZŠ LN – Keramika / mírně pokročilí",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15478"
+    },
+    {
+      "id": 15479,
+      "name": "ZŠ LN – Keramika / předškoláci I",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15479"
+    },
+    {
+      "id": 15480,
+      "name": "ZŠ LN – Keramika / předškoláci II",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15480"
+    },
+    {
+      "id": 15481,
+      "name": "ZŠ LN – Keramika I / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15481"
+    },
+    {
+      "id": 15482,
+      "name": "ZŠ LN – Keramika II / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15482"
+    },
+    {
+      "id": 15483,
+      "name": "ZŠ LN – Keramika III / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:45",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15483"
+    },
+    {
+      "id": 15484,
+      "name": "ZŠ LN – Keramika IV / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15484"
+    },
+    {
+      "id": 15485,
+      "name": "ZŠ LN – Keramika V / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15485"
+    },
+    {
+      "id": 15441,
+      "name": "ZŠ LN – Klavír – I. Beidyk",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:30",
+          "timeTo": "18:00"
+        },
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:30",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15441"
+    },
+    {
+      "id": 15442,
+      "name": "ZŠ LN – Kytara individuál",
+      "ageFrom": 6,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:00",
+          "timeTo": "18:30"
+        },
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15442"
+    },
+    {
+      "id": 16194,
+      "name": "ZŠ LN – Kytara individuál – Nováková",
+      "ageFrom": 7,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=16194"
+    },
+    {
+      "id": 15302,
+      "name": "ZŠ LN – Míčové hry / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15302"
+    },
+    {
+      "id": 15299,
+      "name": "ZŠ LN – Míčové hry / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15299"
+    },
+    {
+      "id": 15300,
+      "name": "ZŠ LN – Sálová kopaná / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15300"
+    },
+    {
+      "id": 15301,
+      "name": "ZŠ LN – Sálová kopaná / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15301"
+    },
+    {
+      "id": 15439,
+      "name": "ZŠ LN Pernerova – Bicí",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15439"
+    },
+    {
+      "id": 15305,
+      "name": "ZŠ P. Strozziho – Míč. hry pro nejmenší",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15305"
+    },
+    {
+      "id": 15306,
+      "name": "ZŠ P. Strozziho – Míčové hry / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15306"
+    },
+    {
+      "id": 15307,
+      "name": "ZŠ P. Strozziho – Volejbal",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "19:30",
+          "timeTo": "21:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15307"
+    },
+    {
+      "id": 15548,
+      "name": "ZŠ Palmovka – Doučování / český jazyk",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:45",
+          "timeTo": "15:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15548"
+    },
+    {
+      "id": 15549,
+      "name": "ZŠ Palmovka – Doučování / matematika",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:15",
+          "timeTo": "15:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15549"
+    },
+    {
+      "id": 15507,
+      "name": "ZŠ Palmovka – Keramika I",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:30",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15507"
+    },
+    {
+      "id": 15663,
+      "name": "ZŠ Palmovka – Mladý badatel",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15663"
+    },
+    {
+      "id": 15531,
+      "name": "ZŠ Palmovka – Programování PC her / začátečníci",
+      "ageFrom": 10,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:30",
+          "timeTo": "14:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15531"
+    },
+    {
+      "id": 15661,
+      "name": "ZŠ Palmovka – Robotika VEX I",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:45",
+          "timeTo": "15:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15661"
+    },
+    {
+      "id": 15662,
+      "name": "ZŠ Palmovka – Robotika VEX II",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15662"
+    },
+    {
+      "id": 15669,
+      "name": "ZŠ Palmovka – Street dance",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15669"
+    },
+    {
+      "id": 15670,
+      "name": "ZŠ Palmovka – Výtvarný kroužek",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15670"
+    },
+    {
+      "id": 15956,
+      "name": "ZŠ Pernerova – Basketbal",
+      "ageFrom": 10,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15956"
+    },
+    {
+      "id": 15312,
+      "name": "ZŠ Pernerova – Florbal / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15312"
+    },
+    {
+      "id": 15313,
+      "name": "ZŠ Pernerova – Florbal / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15313"
+    },
+    {
+      "id": 15308,
+      "name": "ZŠ Pernerova – Míčové hry / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky#id=15308"
+    }
+  ]
+}

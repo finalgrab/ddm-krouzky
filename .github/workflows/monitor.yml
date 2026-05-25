@@ -1,0 +1,79 @@
+name: Monitor DDM Kroužky
+
+on:
+  schedule:
+    # Každých 30 minut, od 31.5.2026 do konce července
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # Ruční spuštění
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    # Běžet jen od 31.5. dál (workflow_dispatch vždy projde)
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.schedule != '' && (
+        (github.event.schedule != '' )
+      )
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run monitor
+        id: monitor
+        run: python monitor.py
+
+      - name: Read monitor results
+        id: results
+        run: |
+          if [ -f data/new_courses_report.txt ]; then
+            echo "has_new=true" >> "$GITHUB_OUTPUT"
+            # Multiline output
+            {
+              echo "report<<EOF"
+              cat data/new_courses_report.txt
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "DDM Monitor Bot"
+          git config user.email "bot@ddm-krouzky.local"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update courses data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
+
+      - name: Send email notification
+        if: steps.results.outputs.has_new == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "🆕 Nové kroužky DDM Karlínské Spektrum!"
+          body: |
+            ${{ steps.results.outputs.report }}
+
+            ---
+            Web plánovač: https://finalgrab.github.io/ddm-krouzky/
+            Tento email byl odeslán automaticky z GitHub Actions.
+          to: ${{ secrets.NOTIFY_EMAIL }}
+          from: DDM Kroužky Monitor <${{ secrets.SMTP_USERNAME }}>
