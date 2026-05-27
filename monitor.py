@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Monitor nových kroužků DDM Karlínské Spektrum.
 
-Porovnává aktuální stav webu s baseline (staré kroužky) + již známými novými.
-Do courses.json zapisuje JEN nové kroužky (ne staré z minulého roku).
-Generuje report pro emailovou notifikaci.
+Detekuje kroužky pro nový školní rok podle data zahájení (> MIN_START_DATE).
+Porovnává s již známými novými kroužky a notifikuje o brand new.
 """
 
 import json
@@ -14,20 +13,17 @@ from pathlib import Path
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-from scraper import scrape_courses
+from scraper import scrape_courses, fetch_start_date
+
+# Kroužky s datem zahájení po tomto datu považujeme za nový školní rok
+MIN_START_DATE = "2026-08-30"
 
 DATA_DIR = Path(__file__).parent / "data"
-BASELINE_FILE = DATA_DIR / "baseline_ids.json"
 COURSES_FILE = DATA_DIR / "courses.json"
 HISTORY_FILE = DATA_DIR / "history.json"
 REPORT_FILE = DATA_DIR / "new_courses_report.txt"
-
-
-def load_baseline_ids() -> set:
-    """Load IDs of old courses (current school year) that should be ignored."""
-    if BASELINE_FILE.exists():
-        return set(json.loads(BASELINE_FILE.read_text(encoding="utf-8")))
-    return set()
+# Cache start dates so we don't re-fetch detail pages for known courses
+START_DATES_CACHE_FILE = DATA_DIR / "start_dates_cache.json"
 
 
 def load_known_new_ids() -> set:
@@ -36,6 +32,23 @@ def load_known_new_ids() -> set:
         data = json.loads(COURSES_FILE.read_text(encoding="utf-8"))
         return {c["id"] for c in data.get("courses", [])}
     return set()
+
+
+def load_start_dates_cache() -> dict:
+    """Load cached start dates {id_str: {date: 'YYYY-MM-DD', fetched: 'ISO timestamp'}}."""
+    if START_DATES_CACHE_FILE.exists():
+        return json.loads(START_DATES_CACHE_FILE.read_text(encoding="utf-8"))
+    return {}
+
+
+def save_start_dates_cache(cache: dict):
+    START_DATES_CACHE_FILE.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
+# Re-check old-year courses at most once per day
+OLD_COURSE_CACHE_TTL_HOURS = 24
 
 
 def format_course(c: dict) -> str:
@@ -58,26 +71,62 @@ def monitor():
     if REPORT_FILE.exists():
         REPORT_FILE.unlink()
 
-    baseline_ids = load_baseline_ids()
     known_new_ids = load_known_new_ids()
-    # All IDs we already know about (baseline + previously detected new)
-    all_known_ids = baseline_ids | known_new_ids
+    start_dates_cache = load_start_dates_cache()
 
     now = datetime.now().isoformat()
     print(f"[{now}] Scraping courses...")
-    print(f"  Baseline: {len(baseline_ids)} old course IDs")
-    print(f"  Known new: {len(known_new_ids)} previously detected new courses")
+    print(f"  Known new: {len(known_new_ids)} previously detected new-year courses")
+    print(f"  Min start date: {MIN_START_DATE}")
 
     scraped = scrape_courses()
-    scraped_ids = {c["id"] for c in scraped}
+    scraped_by_id = {c["id"]: c for c in scraped}
     print(f"  Scraped: {len(scraped)} courses on web")
 
-    # Newly appeared = on web but not in any known set
-    brand_new_ids = scraped_ids - all_known_ids
-    brand_new_courses = [c for c in scraped if c["id"] in brand_new_ids]
+    # For each scraped course, determine start date.
+    # New-year dates are cached permanently (they won't change back).
+    # Old-year dates are cached with TTL — re-checked once per day
+    # in case DDM recycles the ID for the new school year.
+    new_year_courses = []
+    fetch_count = 0
+    now_dt = datetime.fromisoformat(now)
+    for c in scraped:
+        cid_str = str(c["id"])
+        cached = start_dates_cache.get(cid_str)
+        need_fetch = True
 
-    # Courses to show on web = everything that's NOT in baseline
-    web_courses = [c for c in scraped if c["id"] not in baseline_ids]
+        if cached:
+            is_new_year = cached["date"] and cached["date"] > MIN_START_DATE
+            if is_new_year:
+                # New-year course — trust cache permanently
+                need_fetch = False
+            else:
+                # Old-year course — re-check after TTL
+                age_hours = (now_dt - datetime.fromisoformat(cached["fetched"])).total_seconds() / 3600
+                if age_hours < OLD_COURSE_CACHE_TTL_HOURS:
+                    need_fetch = False
+
+        if need_fetch:
+            start_date = fetch_start_date(c["id"])
+            start_dates_cache[cid_str] = {"date": start_date, "fetched": now}
+            fetch_count += 1
+        else:
+            start_date = cached["date"]
+
+        c["startDate"] = start_date
+        if start_date and start_date > MIN_START_DATE:
+            new_year_courses.append(c)
+
+    if fetch_count:
+        print(f"  Fetched {fetch_count} detail pages for start dates")
+    save_start_dates_cache(start_dates_cache)
+
+    print(f"  New-year courses (start > {MIN_START_DATE}): {len(new_year_courses)}")
+
+    # Brand new = new-year courses not yet in courses.json
+    new_year_ids = {c["id"] for c in new_year_courses}
+    brand_new_ids = new_year_ids - known_new_ids
+    brand_new_courses = [c for c in new_year_courses if c["id"] in brand_new_ids]
 
     # Load history
     history = []
@@ -90,7 +139,7 @@ def monitor():
             sched = ", ".join(
                 f'{s["day"]} {s["timeFrom"]}–{s["timeTo"]}' for s in c["schedules"]
             )
-            print(f'  + [{c["id"]}] {c["name"]} ({c["ageFrom"]}–{c["ageTo"]} let, {sched})')
+            print(f'  + [{c["id"]}] {c["name"]} ({c["ageFrom"]}–{c["ageTo"]} let, {sched}, start: {c["startDate"]})')
 
         history.append({
             "timestamp": now,
@@ -102,7 +151,7 @@ def monitor():
         # Build email report grouped by child
         children = {"Vojta (11 let)": 11, "Kryštof (10 let)": 10, "Eli (7 let)": 7}
         report_lines = [
-            f"Nalezeno {len(brand_new_courses)} nových kroužků!\n",
+            f"Nalezeno {len(brand_new_courses)} nových kroužků pro školní rok 2026/27!\n",
             f"Čas: {now}\n",
         ]
 
@@ -136,11 +185,11 @@ def monitor():
     else:
         print("\nŽádné nové kroužky.")
 
-    # Save web-visible courses (only non-baseline)
+    # Save all new-year courses to courses.json (for the web planner)
     output = {
         "scrapedAt": now,
-        "totalCourses": len(web_courses),
-        "courses": web_courses,
+        "totalCourses": len(new_year_courses),
+        "courses": new_year_courses,
     }
     COURSES_FILE.write_text(
         json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -149,7 +198,7 @@ def monitor():
         json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    print(f"\nWeb courses: {len(web_courses)} (excluding {len(baseline_ids)} baseline)")
+    print(f"\nNew-year courses: {len(new_year_courses)}")
     print(f"Data uložena do {COURSES_FILE}")
     return brand_new_courses
 

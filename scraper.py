@@ -11,6 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 
 LISTING_URL = "https://ddmpraha.cz/modul/aktivity/vypis.php?pobocka=1&type=krouzky"
+DETAIL_URL = "https://ddmpraha.cz/karlinske-spektrum/krouzky?id={cid}"
 
 LOCATIONS = {
     "KS": "Karlínské Spektrum",
@@ -75,6 +76,22 @@ def parse_age(text: str) -> tuple[int, int]:
     if m:
         return int(m.group(1)), int(m.group(2))
     return 0, 99
+
+
+def fetch_start_date(cid: int) -> str | None:
+    """Fetch start date from course detail page. Returns 'YYYY-MM-DD' or None."""
+    try:
+        url = DETAIL_URL.format(cid=cid)
+        resp = requests.get(url, verify=False, timeout=15, headers={
+            "User-Agent": "Mozilla/5.0 (DDM Krouzky Monitor)"
+        })
+        resp.encoding = "utf-8"
+        m = re.search(r"Zahájení:\s*(\d{1,2})\.(\d{1,2})\.(\d{4})", resp.text)
+        if m:
+            return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
+    except Exception:
+        pass
+    return None
 
 
 def scrape_courses() -> list[dict]:
