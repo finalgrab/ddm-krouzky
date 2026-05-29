@@ -122,6 +122,9 @@
     <div class="tab active" data-child="vojta">Vojta <span class="badge-count" id="badge-vojta">0</span></div>
     <div class="tab" data-child="krystof">Kryštof <span class="badge-count" id="badge-krystof">0</span></div>
     <div class="tab" data-child="eli">Eli <span class="badge-count" id="badge-eli">0</span></div>
+    <div class="tab" data-child="kaja">Kája <span class="badge-count" id="badge-kaja">0</span></div>
+    <div class="tab" data-child="maja">Mája <span class="badge-count" id="badge-maja">0</span></div>
+    <div class="tab" data-child="bara">Bára <span class="badge-count" id="badge-bara">0</span></div>
   </div>
 
   <div class="custom-section">
@@ -186,6 +189,9 @@ const CHILDREN = {
   vojta: { name: 'Vojta', age: 11 },
   krystof: { name: 'Kryštof', age: 10 },
   eli: { name: 'Eli', age: 7 },
+  kaja: { name: 'Kája', age: 11 },
+  maja: { name: 'Mája', age: 9 },
+  bara: { name: 'Bára', age: 6 },
 };
 const DAY_ORDER = ['PO', 'ÚT', 'ST', 'ČT', 'PÁ'];
 const DAY_NAMES = { PO: 'Pondělí', ÚT: 'Úterý', ST: 'Středa', ČT: 'Čtvrtek', PÁ: 'Pátek' };
@@ -242,10 +248,10 @@ let scrapedCourses = [];
 // All courses = scraped + custom for current child (rebuilt dynamically)
 let allCourses = [];
 let currentChild = 'vojta';
-let selectedCourses = { vojta: new Set(), krystof: new Set(), eli: new Set() };
-let checkedCourses = { vojta: new Set(), krystof: new Set(), eli: new Set() };
+let selectedCourses = { vojta: new Set(), krystof: new Set(), eli: new Set(), kaja: new Set(), maja: new Set(), bara: new Set() };
+let checkedCourses = { vojta: new Set(), krystof: new Set(), eli: new Set(), kaja: new Set(), maja: new Set(), bara: new Set() };
 // Custom courses stored per child as raw data; converted to course objects on rebuild
-let customCoursesRaw = { vojta: [], krystof: [], eli: [] };
+let customCoursesRaw = { vojta: [], krystof: [], eli: [], kaja: [], maja: [], bara: [] };
 let filters = { days: new Set(), times: new Set(), locations: new Set(), search: '' };
 
 try {
