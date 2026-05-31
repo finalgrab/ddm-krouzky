@@ -1,5 +1,4104 @@
 {
-  "scrapedAt": "2026-05-31T21:57:37.328495",
-  "totalCourses": 0,
-  "courses": []
+  "scrapedAt": "2026-05-31T22:00:58.855810",
+  "totalCourses": 219,
+  "courses": [
+    {
+      "id": 17416,
+      "name": "Airsoft I",
+      "ageFrom": 10,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17416",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17417,
+      "name": "Airsoft II",
+      "ageFrom": 10,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17417",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17474,
+      "name": "Airsoft III",
+      "ageFrom": 10,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17474",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17372,
+      "name": "Angličtina hravě / mladší",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17372",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17373,
+      "name": "Angličtina hravě / starší",
+      "ageFrom": 10,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:15",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17373",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17477,
+      "name": "Balet",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17477",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17418,
+      "name": "Capoeira I / začátečníci",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17418",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17419,
+      "name": "Capoeira II / starší a pokročilí",
+      "ageFrom": 8,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "18:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17419",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17964,
+      "name": "Capoeira III – začátečníci + pokročilí",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17964",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17601,
+      "name": "Čtenářský klub",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17601",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17364,
+      "name": "Divadelní kroužek II",
+      "ageFrom": 12,
+      "ageTo": 16,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17364",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17363,
+      "name": "Divadelní kroužek III",
+      "ageFrom": 7,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17363",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17486,
+      "name": "Divadlo v pohybu",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17486",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17633,
+      "name": "DJing / dospělí I",
+      "ageFrom": 18,
+      "ageTo": 79,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "19:00",
+          "timeTo": "20:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17633",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17635,
+      "name": "DJing / dospělí II",
+      "ageFrom": 18,
+      "ageTo": 79,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:15",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17635",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17636,
+      "name": "DJing / dospělí III",
+      "ageFrom": 18,
+      "ageTo": 79,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "19:30",
+          "timeTo": "20:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17636",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17637,
+      "name": "DJing / mírně pokročilí I",
+      "ageFrom": 12,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:30",
+          "timeTo": "18:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17637",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17640,
+      "name": "DJing / mírně pokročilí II",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17640",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17639,
+      "name": "DJing / začátečníci I",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:45",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17639",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17641,
+      "name": "DJing / začátečníci II",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:30",
+          "timeTo": "18:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17641",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17638,
+      "name": "DJing / začátečníci III",
+      "ageFrom": 12,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "17:00",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17638",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17627,
+      "name": "Dramatická přípravka I",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:15",
+          "timeTo": "14:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17627",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17628,
+      "name": "Dramatická přípravka II",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:15",
+          "timeTo": "14:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17628",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17612,
+      "name": "Družinka",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17612",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17644,
+      "name": "Flétna pro předškoláky",
+      "ageFrom": 5,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17644",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17643,
+      "name": "Flétna pro školáky",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17643",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17648,
+      "name": "Flétna pro školáky – individuální",
+      "ageFrom": 6,
+      "ageTo": 15,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17648",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17646,
+      "name": "Flétna pro školáky – mírně pokročilí",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17646",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17647,
+      "name": "Flétna pro školáky – pokročilí",
+      "ageFrom": 6,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17647",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17645,
+      "name": "Flétna pro školáky – začátečníci",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17645",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17467,
+      "name": "Freestyle koloběžky / podzim",
+      "ageFrom": 8,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17467",
+      "startDate": "2026-09-10"
+    },
+    {
+      "id": 17584,
+      "name": "Graffiti and Street art",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17584",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17585,
+      "name": "Graffiti and Street art",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17585",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17478,
+      "name": "Hravé cvičení",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17478",
+      "startDate": "2026-09-30"
+    },
+    {
+      "id": 17624,
+      "name": "Hravé pohybovky",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:55",
+          "timeTo": "15:55"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17624",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17479,
+      "name": "Hudebně-taneční školička",
+      "ageFrom": 3,
+      "ageTo": 4,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17479",
+      "startDate": "2026-10-01"
+    },
+    {
+      "id": 17468,
+      "name": "In-line brusle / pokročilí / podzim",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17468",
+      "startDate": "2026-09-09"
+    },
+    {
+      "id": 17469,
+      "name": "In-line brusle / začátečníci / podzim",
+      "ageFrom": 5,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17469",
+      "startDate": "2026-09-09"
+    },
+    {
+      "id": 17405,
+      "name": "IT profík",
+      "ageFrom": 12,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:45",
+          "timeTo": "17:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17405",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17421,
+      "name": "Jóga / děti",
+      "ageFrom": 7,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17421",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17422,
+      "name": "Jóga / dospělí",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "18:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17422",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17423,
+      "name": "Jóga / muži",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "08:30",
+          "timeTo": "09:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17423",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17424,
+      "name": "Jóga pro nejmenší",
+      "ageFrom": 5,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17424",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17425,
+      "name": "Kajakářský oddíl - Štiky I",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17425",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17889,
+      "name": "Kajakářský oddíl Štiky II",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "16:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17889",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17426,
+      "name": "Karate / dospělí",
+      "ageFrom": 15,
+      "ageTo": 60,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17426",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17427,
+      "name": "Karate I / mladší",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17427",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17428,
+      "name": "Karate II / starší a mírně pokročilí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17428",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17965,
+      "name": "Karate III – začátečníci + pokročilí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17965",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17379,
+      "name": "Keramika – modelování (dopoledne)",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "10:00",
+          "timeTo": "12:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17379",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17380,
+      "name": "Keramika – modelování I",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17380",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17381,
+      "name": "Keramika – modelování II",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17381",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17382,
+      "name": "Keramika – modelování III",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17382",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17383,
+      "name": "Keramika – modelování IV",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17383",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17384,
+      "name": "Keramika – točení na kruhu I",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17384",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17385,
+      "name": "Keramika – točení na kruhu II",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17385",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17387,
+      "name": "Keramika – točení na kruhu IV",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17387",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17388,
+      "name": "Keramika / dospělí I",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:30",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17388",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17389,
+      "name": "Keramika / dospělí II",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:30",
+          "timeTo": "19:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17389",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17390,
+      "name": "Keramika / mladší I",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17390",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17391,
+      "name": "Keramika / mladší II",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17391",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17392,
+      "name": "Keramika / starší I",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:45",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17392",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17393,
+      "name": "Keramika / starší II",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:45",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17393",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17653,
+      "name": "Klavír / B. Slavíková (děti)",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17653",
+      "startDate": "2026-10-02"
+    },
+    {
+      "id": 17967,
+      "name": "Klavír / B. Slavíková (dospělí)",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17967",
+      "startDate": "2026-10-02"
+    },
+    {
+      "id": 17885,
+      "name": "Klavír / H. Řeřichová (čtvrtek)",
+      "ageFrom": 6,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17885",
+      "startDate": "2026-10-01"
+    },
+    {
+      "id": 17884,
+      "name": "Klavír / H. Řeřichová (středa)",
+      "ageFrom": 6,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17884",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17652,
+      "name": "Klavír / K. Košťálová",
+      "ageFrom": 6,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17652",
+      "startDate": "2026-10-01"
+    },
+    {
+      "id": 17883,
+      "name": "Klavír / V. Rozkovec",
+      "ageFrom": 9,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17883",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17527,
+      "name": "Komiks",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:30",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17527",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17529,
+      "name": "Kreativní dílna II",
+      "ageFrom": 7,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17529",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17530,
+      "name": "Kresba, malba, grafika / dospělí (2 hod.)",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "19:00",
+          "timeTo": "21:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17530",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17531,
+      "name": "Kresba, malba, grafika / dospělí (3 hod.)",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "18:00",
+          "timeTo": "21:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17531",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17657,
+      "name": "Kytara / J. Hábl",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17657",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17882,
+      "name": "Kytara / V. Tupý (čtvrtek)",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17882",
+      "startDate": "2026-10-01"
+    },
+    {
+      "id": 17658,
+      "name": "Kytara / V. Tupý (úterý)",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17658",
+      "startDate": "2026-10-06"
+    },
+    {
+      "id": 17480,
+      "name": "Latino kids",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17480",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17505,
+      "name": "LEGOmechanika / pokročilí I",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:45",
+          "timeTo": "18:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17505",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17506,
+      "name": "LEGOmechanika / pokročilí II",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17506",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17507,
+      "name": "LEGOmechanika / začátečníci I",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17507",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17508,
+      "name": "LEGOmechanika / začátečníci II",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:20",
+          "timeTo": "17:20"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17508",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17509,
+      "name": "LEGOrobotika / pokročilí",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:45",
+          "timeTo": "18:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17509",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17510,
+      "name": "LEGOrobotika / začátečníci",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17510",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17626,
+      "name": "Létání s FPV dronem",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17626",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17429,
+      "name": "Lezení a lan. aktivity / pokročilí",
+      "ageFrom": 10,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17429",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17430,
+      "name": "Lezení a lanové aktivity I",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:30",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17430",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17431,
+      "name": "Lezení a lanové aktivity II / mírně pokročilí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17431",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17432,
+      "name": "Lezení a lanové aktivity III",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:30",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17432",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17433,
+      "name": "Lezení a lanové aktivity IV",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17433",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17434,
+      "name": "Lezení a lanové aktivity V",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17434",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17435,
+      "name": "Lezení a lanové aktivity VI",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17435",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17512,
+      "name": "Malý inženýr I",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:15",
+          "timeTo": "16:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17512",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17513,
+      "name": "Malý inženýr II",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17513",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17406,
+      "name": "Minecraft / mladší I",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17406",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17407,
+      "name": "Minecraft / mladší II",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17407",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17409,
+      "name": "Minecraft / pokročilí",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17409",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17410,
+      "name": "Minecraft / starší",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17410",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17583,
+      "name": "Miniateliér",
+      "ageFrom": 2,
+      "ageTo": 4,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "10:00",
+          "timeTo": "11:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17583",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17481,
+      "name": "MJ studio – soubor 1/2",
+      "ageFrom": 12,
+      "ageTo": 30,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17481",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17482,
+      "name": "MJ studio – soubor 3",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17482",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17483,
+      "name": "MJ studio – studiáček tanec FIT",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17483",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17484,
+      "name": "MJ studio – studiáček tanec MINI",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17484",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17603,
+      "name": "Mladý cukrář I",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17603",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17602,
+      "name": "Mladý cukrář II",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17602",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17604,
+      "name": "Mladý kuchař",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17604",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17485,
+      "name": "Moderní tanec",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17485",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17470,
+      "name": "Nerf / podzim",
+      "ageFrom": 7,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17470",
+      "startDate": "2026-09-11"
+    },
+    {
+      "id": 17613,
+      "name": "Odpolední Kostička",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17613",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17471,
+      "name": "Paddleboardový kurz KaPrkna",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17471",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17436,
+      "name": "Parkour I / začátečníci",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17436",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17437,
+      "name": "Parkour II / starší a mírně pokročilí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17437",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17586,
+      "name": "Pastelka II",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17586",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17587,
+      "name": "Pastelka III",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17587",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17438,
+      "name": "Ping pong I",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17438",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17439,
+      "name": "Ping pong II",
+      "ageFrom": 7,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17439",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17374,
+      "name": "Pokusy pro malé vědátory I",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17374",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17375,
+      "name": "Pokusy pro malé vědátory II",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:30",
+          "timeTo": "14:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17375",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17411,
+      "name": "Programování PC her / pokročilí",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:15",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17411",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17412,
+      "name": "Programování PC her / začátečníci",
+      "ageFrom": 10,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17412",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17614,
+      "name": "Převod – klub – Jóga pro nejmenší",
+      "ageFrom": 5,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17614",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17615,
+      "name": "Převod – klub – Míčovky / Kollárova",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:45",
+          "timeTo": "16:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17615",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17622,
+      "name": "Převod – Oddíl Pulci",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17622",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17630,
+      "name": "Převod MŠ Lyčkovo náměstí + MŠ Pernerova – čtvrtek",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "12:00",
+          "timeTo": "13:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17630",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17629,
+      "name": "Převod MŠ Lyčkovo náměstí + MŠ Pernerova – pondělí",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "12:00",
+          "timeTo": "13:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17629",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17632,
+      "name": "Převod MŠ Sokolovská – čtvrtek",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "12:00",
+          "timeTo": "13:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17632",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17631,
+      "name": "Převod MŠ Sokolovská – pondělí",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "12:00",
+          "timeTo": "13:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17631",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17440,
+      "name": "Ranní jóga",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "07:50",
+          "timeTo": "08:50"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17440",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17441,
+      "name": "Sebeobrana pro děti",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17441",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17472,
+      "name": "Skateboarding I / začátečníci / podzim",
+      "ageFrom": 7,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17472",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17473,
+      "name": "Skateboarding II / starší a mírně pokročilí / podzim",
+      "ageFrom": 8,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17473",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17442,
+      "name": "Sportovní školička",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17442",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17444,
+      "name": "Stolní fotbálek / starší a pokročilí",
+      "ageFrom": 10,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17444",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17445,
+      "name": "Stolní fotbálek / začátečníci",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17445",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17487,
+      "name": "Street dance I – pondělí",
+      "ageFrom": 8,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17487",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17488,
+      "name": "Street dance I – středa",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:15",
+          "timeTo": "15:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17488",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17489,
+      "name": "Street dance II - pondělí",
+      "ageFrom": 11,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:45",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17489",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17582,
+      "name": "Street dance II – středa",
+      "ageFrom": 11,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:45",
+          "timeTo": "18:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17582",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17448,
+      "name": "Šachy / děti (začátečníci)",
+      "ageFrom": 5,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17448",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17446,
+      "name": "Šachy / děti / klub",
+      "ageFrom": 5,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17446",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17447,
+      "name": "Šachy / děti / mírně pokročilí",
+      "ageFrom": 7,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17447",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17449,
+      "name": "Šachy / dospělí",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:00",
+          "timeTo": "21:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17449",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17606,
+      "name": "Šéfkuchař",
+      "ageFrom": 10,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:00",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17606",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17625,
+      "name": "Šipky",
+      "ageFrom": 8,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17625",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17491,
+      "name": "Taneční přípravka - čtvrtek",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:15",
+          "timeTo": "15:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17491",
+      "startDate": "2026-10-01"
+    },
+    {
+      "id": 17490,
+      "name": "Taneční přípravka – pondělí",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:15",
+          "timeTo": "15:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17490",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17500,
+      "name": "Taneční soubor Chasa",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:30",
+          "timeTo": "21:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17500",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17501,
+      "name": "Taneční soubor Impuls",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17501",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17503,
+      "name": "Taneční soubor Šarvanci, lidové tance",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17503",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17517,
+      "name": "Turistický oddíl - Tuláci",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17517",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17607,
+      "name": "Tvorba deskových her",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:15",
+          "timeTo": "17:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17607",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17642,
+      "name": "Tvorba elektronické hudby",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "17:45",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17642",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17365,
+      "name": "Tvůrčí psaní",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17365",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17413,
+      "name": "Unreal Engine pro pokročilé",
+      "ageFrom": 11,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:30",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17413",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17475,
+      "name": "Vodácko-turistická přípravka Pulci I",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17475",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17476,
+      "name": "Vodácko-turistická přípravka Pulci II",
+      "ageFrom": 5,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17476",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17519,
+      "name": "Vodácko-turistický oddíl Lvíčata",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17519",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17520,
+      "name": "Vodácko-turistický oddíl Mokro",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17520",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17521,
+      "name": "Vodácko-turistický oddíl Neptun",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17521",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17522,
+      "name": "Vodácko-turistický oddíl Regent",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "17:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17522",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17523,
+      "name": "Vodácko-turistický oddíl Tygři",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "17:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17523",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17451,
+      "name": "VOŠ Kollárova – Míč. hry pro nejmenší",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17451",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17588,
+      "name": "Výtvarný ateliér / mládež I",
+      "ageFrom": 12,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "18:00",
+          "timeTo": "20:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17588",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17589,
+      "name": "Výtvarný ateliér / mládež II",
+      "ageFrom": 14,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17589",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17590,
+      "name": "Výtvarný ateliér / mladší I",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "13:45",
+          "timeTo": "14:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17590",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17663,
+      "name": "Zpěv – skupinový I",
+      "ageFrom": 9,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17663",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17919,
+      "name": "Zpěv – skupinový II",
+      "ageFrom": 12,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:45",
+          "timeTo": "17:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17919",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17664,
+      "name": "Zpívánky pro předškoláky",
+      "ageFrom": 3,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "13:10",
+          "timeTo": "14:10"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17664",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17665,
+      "name": "Zpívánky pro školáky",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17665",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17376,
+      "name": "Zručičky",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:15",
+          "timeTo": "17:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17376",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17948,
+      "name": "ZŠ Chvaly - Míčové hry / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17948",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17943,
+      "name": "ZŠ Chvaly – Flétna / pokročilí",
+      "ageFrom": 7,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:15",
+          "timeTo": "15:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17943",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17944,
+      "name": "ZŠ Chvaly – Flétna I",
+      "ageFrom": 9,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "12:15",
+          "timeTo": "13:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17944",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17945,
+      "name": "ZŠ Chvaly – Flétna II",
+      "ageFrom": 12,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:15",
+          "timeTo": "14:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17945",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17946,
+      "name": "ZŠ Chvaly – Flétna III",
+      "ageFrom": 6,
+      "ageTo": 8,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:15",
+          "timeTo": "16:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17946",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17950,
+      "name": "ZŠ Chvaly – Florbal / mladší",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17950",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17940,
+      "name": "ZŠ Chvaly – Florbal nejenom",
+      "ageFrom": 12,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17940",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17934,
+      "name": "ZŠ Chvaly – Keramika I",
+      "ageFrom": 7,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17934",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17935,
+      "name": "ZŠ Chvaly – Keramika II",
+      "ageFrom": 6,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17935",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17936,
+      "name": "ZŠ Chvaly – Keramika III",
+      "ageFrom": 6,
+      "ageTo": 14,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17936",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17937,
+      "name": "ZŠ Chvaly – Keramika IV",
+      "ageFrom": 8,
+      "ageTo": 20,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17937",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17947,
+      "name": "ZŠ Chvaly – Míčové hry / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17947",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17942,
+      "name": "ZŠ Chvaly – Šachy / pokročilí",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17942",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17941,
+      "name": "ZŠ Chvaly – Šachy / začátečníci",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:00",
+          "timeTo": "14:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17941",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17939,
+      "name": "ZŠ Chvaly – Výtvarka 1",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17939",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17938,
+      "name": "ZŠ Chvaly – Výtvarka 2",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17938",
+      "startDate": "2026-09-18"
+    },
+    {
+      "id": 17453,
+      "name": "ZŠ Kořenského – Sálová kopaná",
+      "ageFrom": 7,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17453",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17394,
+      "name": "ZŠ LN – Keramika / mírně pokročilí",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:30",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17394",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17395,
+      "name": "ZŠ LN – Keramika / předškoláci I",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17395",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17396,
+      "name": "ZŠ LN – Keramika / předškoláci II",
+      "ageFrom": 4,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17396",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17397,
+      "name": "ZŠ LN – Keramika I / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17397",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17398,
+      "name": "ZŠ LN – Keramika II / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17398",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17399,
+      "name": "ZŠ LN – Keramika III / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:45",
+          "timeTo": "17:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17399",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17400,
+      "name": "ZŠ LN – Keramika IV / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17400",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17401,
+      "name": "ZŠ LN – Keramika V / 1.–3. tř.",
+      "ageFrom": 6,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17401",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17666,
+      "name": "ZŠ LN – Klavír – I. Beidyk",
+      "ageFrom": 9,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "PÁ",
+          "dayFull": "Pátek",
+          "timeFrom": "13:00",
+          "timeTo": "20:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17666",
+      "startDate": "2026-10-01"
+    },
+    {
+      "id": 17667,
+      "name": "ZŠ LN – Kytara individuál – Nováková",
+      "ageFrom": 7,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17667",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17454,
+      "name": "ZŠ LN – Míčové hry / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17454",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17455,
+      "name": "ZŠ LN – Míčové hry / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17455",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17456,
+      "name": "ZŠ LN – Sálová kopaná / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17456",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17457,
+      "name": "ZŠ LN – Sálová kopaná / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17457",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17599,
+      "name": "ZŠ LN – Tiffany I",
+      "ageFrom": 14,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "18:00",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17599",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17600,
+      "name": "ZŠ LN – Tiffany II",
+      "ageFrom": 14,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "18:00",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17600",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17668,
+      "name": "ZŠ LN Pernerova – Bicí",
+      "ageFrom": 8,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17668",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17458,
+      "name": "ZŠ P. Strozziho – Míč. hry pro nejmenší",
+      "ageFrom": 4,
+      "ageTo": 6,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17458",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17459,
+      "name": "ZŠ P. Strozziho – Míčové hry / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "17:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17459",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17460,
+      "name": "ZŠ P. Strozziho – Volejbal",
+      "ageFrom": 15,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "19:30",
+          "timeTo": "21:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17460",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17461,
+      "name": "ZŠ Palmovka - Gymnastický aerobik",
+      "ageFrom": 7,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17461",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17609,
+      "name": "ZŠ Palmovka – Doučování / český jazyk",
+      "ageFrom": 7,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17609",
+      "startDate": "2026-09-16"
+    },
+    {
+      "id": 17402,
+      "name": "ZŠ Palmovka – Keramika I",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "13:30",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17402",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17403,
+      "name": "ZŠ Palmovka – Keramika II",
+      "ageFrom": 11,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:15",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17403",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17623,
+      "name": "ZŠ Palmovka – Mladý badatel",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:30",
+          "timeTo": "15:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17623",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17514,
+      "name": "ZŠ Palmovka – Robotika VEX I",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "14:45",
+          "timeTo": "15:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17514",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17515,
+      "name": "ZŠ Palmovka – Robotika VEX II",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17515",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17504,
+      "name": "ZŠ Palmovka – Street dance",
+      "ageFrom": 8,
+      "ageTo": 12,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17504",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17598,
+      "name": "ZŠ Palmovka – Výtvarný kroužek",
+      "ageFrom": 6,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "15:45",
+          "timeTo": "16:45"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17598",
+      "startDate": "2026-09-17"
+    },
+    {
+      "id": 17466,
+      "name": "ZŠ Pernerova – Basketbal / mladší",
+      "ageFrom": 7,
+      "ageTo": 11,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17466",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17463,
+      "name": "ZŠ Pernerova – Basketbal / starší",
+      "ageFrom": 11,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "16:00",
+          "timeTo": "17:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17463",
+      "startDate": "2026-09-15"
+    },
+    {
+      "id": 17464,
+      "name": "ZŠ Pernerova – Florbal / mladší",
+      "ageFrom": 6,
+      "ageTo": 9,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17464",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17465,
+      "name": "ZŠ Pernerova – Florbal / starší",
+      "ageFrom": 9,
+      "ageTo": 13,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "16:30",
+          "timeTo": "17:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17465",
+      "startDate": "2026-09-14"
+    }
+  ]
 }
