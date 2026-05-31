@@ -106,6 +106,27 @@
       .custom-form { grid-template-columns: 1fr 1fr; }
       .hcal-header, .hcal-row { min-width: 900px; }
     }
+
+    .sync-panel { background: var(--card-bg); border-radius: var(--radius); margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); overflow: hidden; }
+    .sync-header { display: flex; align-items: center; gap: 10px; padding: 10px 16px; cursor: pointer; user-select: none; font-size: 0.9rem; font-weight: 500; }
+    .sync-header:hover { background: #f9fafb; }
+    .sync-header .sh-title { flex: 1; }
+    .sync-badge { font-size: 0.72rem; font-weight: 600; padding: 2px 8px; border-radius: 10px; }
+    .sync-badge-ok { background: #dcfce7; color: var(--success); }
+    .sync-badge-off { background: #f3f4f6; color: var(--muted); }
+    .sync-badge-err { background: #fee2e2; color: var(--danger); }
+    .sync-badge-loading { background: #fef3c7; color: #92400e; }
+    .sync-body { padding: 12px 16px; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: 10px; }
+    .sync-form { display: flex; gap: 8px; align-items: flex-end; flex-wrap: wrap; }
+    .sync-form label { font-size: 0.8rem; color: var(--muted); display: block; margin-bottom: 4px; }
+    .sync-form input { padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.85rem; font-family: monospace; flex: 1; min-width: 200px; }
+    .sync-form button { padding: 6px 14px; background: var(--primary); color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 0.85rem; white-space: nowrap; }
+    .sync-form button:hover { filter: brightness(0.9); }
+    .sync-info { font-size: 0.82rem; color: var(--muted); }
+    .sync-migrate { background: #f9fafb; border-radius: 6px; padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .sync-migrate p { font-size: 0.85rem; }
+    .sync-migrate button { padding: 6px 14px; background: var(--success); color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 0.85rem; white-space: nowrap; }
+    .sync-migrate button:hover { filter: brightness(0.9); }
   </style>
 </head>
 <body>
@@ -125,6 +146,28 @@
     <div class="tab" data-child="kaja">Kája <span class="badge-count" id="badge-kaja">0</span></div>
     <div class="tab" data-child="maja">Mája <span class="badge-count" id="badge-maja">0</span></div>
     <div class="tab" data-child="bara">Bára <span class="badge-count" id="badge-bara">0</span></div>
+  </div>
+
+  <div class="sync-panel" id="syncPanel">
+    <div class="sync-header" onclick="toggleSyncPanel()">
+      <span class="sh-title">☁ Synchronizace přes GitHub</span>
+      <span id="syncStatusBadge" class="sync-badge sync-badge-off">Vypnuto</span>
+      <span id="syncToggleIcon" style="font-size:0.8rem;color:var(--muted)">▼</span>
+    </div>
+    <div class="sync-body" id="syncBody" style="display:none">
+      <div class="sync-form">
+        <div style="flex:1;min-width:200px">
+          <label>GitHub Personal Access Token</label>
+          <input type="password" id="githubTokenInput" placeholder="ghp_...">
+        </div>
+        <button onclick="saveGithubToken()">Uložit</button>
+      </div>
+      <div id="syncInfo" class="sync-info"></div>
+      <div class="sync-migrate" id="migrateSection" style="display:none">
+        <p>Nalezena lokální data bez synchronizace. Přenést je do GitHubu?</p>
+        <button onclick="migrateToGitHub()">Přenést do GitHubu</button>
+      </div>
+    </div>
   </div>
 
   <div class="custom-section">
@@ -272,7 +315,137 @@ function saveState() {
   localStorage.setItem('ddm-selected', JSON.stringify(obj));
   localStorage.setItem('ddm-checked', JSON.stringify(obj2));
   localStorage.setItem('ddm-custom', JSON.stringify(customCoursesRaw));
+  scheduleSyncSave();
 }
+
+// ── GitHub Sync ──────────────────────────────────────────────────────────────
+const GITHUB_REPO = 'finalgrab/ddm-krouzky';
+const GITHUB_STATE_FILE = 'data/user_state.json';
+
+let githubToken = localStorage.getItem('ddm-github-token') || '';
+let githubFileSha = null;
+let syncDebounceTimer = null;
+
+function setSyncStatus(type, text) {
+  const badge = document.getElementById('syncStatusBadge');
+  if (badge) { badge.className = 'sync-badge sync-badge-' + type; badge.textContent = text; }
+}
+function setSyncInfo(text) {
+  const el = document.getElementById('syncInfo');
+  if (el) el.textContent = text;
+}
+function toggleSyncPanel() {
+  const body = document.getElementById('syncBody');
+  const icon = document.getElementById('syncToggleIcon');
+  if (!body) return;
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : '';
+  if (icon) icon.textContent = open ? '▼' : '▲';
+  if (!open && githubToken) document.getElementById('githubTokenInput').value = '●'.repeat(20);
+}
+function saveGithubToken() {
+  const val = document.getElementById('githubTokenInput').value.trim();
+  if (!val || val.startsWith('●')) return;
+  githubToken = val;
+  localStorage.setItem('ddm-github-token', val);
+  document.getElementById('githubTokenInput').value = '●'.repeat(20);
+  setSyncInfo('Token uložen. Načítám stav z GitHubu...');
+  syncNow();
+}
+async function githubRequest(method, path, body) {
+  const url = `https://api.github.com/repos/${GITHUB_REPO}/contents/${path}`;
+  const headers = { 'Authorization': `token ${githubToken}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json' };
+  const opts = { method, headers };
+  if (body) opts.body = JSON.stringify(body);
+  const resp = await fetch(url, opts);
+  if (resp.status === 404) return null;
+  if (!resp.ok) { const err = await resp.json().catch(() => ({})); throw new Error(err.message || `HTTP ${resp.status}`); }
+  return resp.json();
+}
+function getCurrentState() {
+  const selected = {}, checked = {};
+  for (const child of Object.keys(CHILDREN)) {
+    selected[child] = [...selectedCourses[child]];
+    checked[child] = [...checkedCourses[child]];
+  }
+  return { selected, checked, custom: customCoursesRaw, savedAt: new Date().toISOString() };
+}
+function applyState(state) {
+  for (const child of Object.keys(CHILDREN)) {
+    if (state.selected?.[child]) selectedCourses[child] = new Set(state.selected[child]);
+    if (state.checked?.[child]) checkedCourses[child] = new Set(state.checked[child]);
+    if (state.custom?.[child]) customCoursesRaw[child] = state.custom[child];
+  }
+}
+async function loadFromGitHub() {
+  if (!githubToken) return null;
+  try {
+    const result = await githubRequest('GET', GITHUB_STATE_FILE);
+    if (!result) return null;
+    githubFileSha = result.sha;
+    return JSON.parse(decodeURIComponent(escape(atob(result.content.replace(/\n/g, '')))));
+  } catch(e) {
+    setSyncStatus('err', 'Chyba načítání');
+    setSyncInfo('Chyba: ' + e.message);
+    return null;
+  }
+}
+async function saveToGitHub() {
+  if (!githubToken) return;
+  setSyncStatus('loading', 'Ukládám...');
+  try {
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(getCurrentState(), null, 2))));
+    const body = { message: 'Update user state', content };
+    if (githubFileSha) body.sha = githubFileSha;
+    const result = await githubRequest('PUT', GITHUB_STATE_FILE, body);
+    if (result?.content?.sha) githubFileSha = result.content.sha;
+    setSyncStatus('ok', 'Synchronizováno');
+    setSyncInfo('Uloženo: ' + new Date().toLocaleTimeString('cs-CZ'));
+  } catch(e) {
+    setSyncStatus('err', 'Chyba uložení');
+    setSyncInfo('Chyba: ' + e.message);
+  }
+}
+function scheduleSyncSave() {
+  if (!githubToken) return;
+  clearTimeout(syncDebounceTimer);
+  syncDebounceTimer = setTimeout(saveToGitHub, 1500);
+}
+async function syncNow() {
+  if (!githubToken) { setSyncInfo('Zadejte nejprve token.'); return; }
+  setSyncStatus('loading', 'Synchronizuji...');
+  const data = await loadFromGitHub();
+  if (data) {
+    applyState(data);
+    rebuildAllCourses();
+    render();
+    setSyncStatus('ok', 'Synchronizováno');
+    setSyncInfo('Načteno z GitHubu: ' + new Date(data.savedAt).toLocaleString('cs-CZ'));
+    document.getElementById('migrateSection').style.display = 'none';
+  } else {
+    if (hasLocalStorageData()) {
+      document.getElementById('migrateSection').style.display = '';
+      setSyncInfo('GitHub soubor ještě neexistuje.');
+      setSyncStatus('off', 'Čeká na migraci');
+    } else {
+      await saveToGitHub();
+    }
+  }
+}
+function hasLocalStorageData() {
+  try {
+    const sel = JSON.parse(localStorage.getItem('ddm-selected') || '{}');
+    const cust = JSON.parse(localStorage.getItem('ddm-custom') || '{}');
+    return Object.values(sel).some(v => v.length > 0) || Object.values(cust).some(v => v.length > 0);
+  } catch { return false; }
+}
+async function migrateToGitHub() {
+  setSyncInfo('Přenáším data...');
+  githubFileSha = null;
+  await saveToGitHub();
+  document.getElementById('migrateSection').style.display = 'none';
+}
+// ── End GitHub Sync ──────────────────────────────────────────────────────────
 
 // Convert a raw custom course to a full course object (negative ID)
 function customToCourse(raw) {
@@ -570,6 +743,24 @@ document.getElementById('searchInput').addEventListener('input', e => {
 });
 
 async function init() {
+  // Initialize sync UI if token already saved
+  if (githubToken) {
+    setSyncStatus('loading', 'Načítám...');
+    const ghState = await loadFromGitHub();
+    if (ghState) {
+      applyState(ghState);
+      setSyncStatus('ok', 'Synchronizováno');
+      setSyncInfo('Načteno z GitHubu: ' + new Date(ghState.savedAt).toLocaleString('cs-CZ'));
+    } else if (hasLocalStorageData()) {
+      document.getElementById('migrateSection').style.display = '';
+      setSyncInfo('GitHub soubor ještě neexistuje. Máte lokální data k přenosu.');
+      setSyncStatus('off', 'Čeká na migraci');
+    } else {
+      setSyncInfo('Připojeno. Zatím žádná uložená data.');
+      setSyncStatus('ok', 'Připojeno');
+    }
+  }
+
   try {
     const resp = await fetch('data/courses.json');
     const data = await resp.json();
