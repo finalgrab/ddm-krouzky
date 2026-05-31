@@ -240,7 +240,8 @@ const DAY_ORDER = ['PO', 'ÚT', 'ST', 'ČT', 'PÁ'];
 const DAY_NAMES = { PO: 'Pondělí', ÚT: 'Úterý', ST: 'Středa', ČT: 'Čtvrtek', PÁ: 'Pátek' };
 const CAL_START = 12;
 const CAL_END = 21;
-const HALF_HOURS = (CAL_END - CAL_START) * 2;
+const SLOT_MIN = 5;
+const SLOTS = (CAL_END - CAL_START) * 60 / SLOT_MIN;
 
 const LOC_COLORS_FIXED = {
   'KS':  { bg: '#dbeafe', fg: '#1e40af', border: '#2563eb' },
@@ -553,7 +554,7 @@ function toggleSelected(id) {
 
 function timeToSlot(t) {
   const [h, m] = t.split(':').map(Number);
-  return Math.max(0, Math.min(HALF_HOURS, (h * 60 + m - CAL_START * 60) / 30));
+  return Math.max(0, Math.min(SLOTS, Math.round((h * 60 + m - CAL_START * 60) / SLOT_MIN)));
 }
 
 // Build horizontal calendar — no more separate customList param
@@ -600,24 +601,24 @@ function buildHCalendar(containerEl, legendEl, courseIds, onClickFn) {
     eventsByDay[d].maxLanes = lanes.length || 1;
   });
 
-  let html = `<div class="hcal" style="--slots:${HALF_HOURS}">`;
+  let html = `<div class="hcal" style="--slots:${SLOTS}">`;
   html += `<div class="hcal-header" style="min-width:900px"><div class="corner"></div>`;
   for (let h = CAL_START; h < CAL_END; h++) {
-    html += `<div class="time-label">${String(h).padStart(2,'0')}</div>`;
-    html += `<div class="time-label half">30</div>`;
+    html += `<div class="time-label" style="grid-column:span 6">${String(h).padStart(2,'0')}</div>`;
+    html += `<div class="time-label half" style="grid-column:span 6">30</div>`;
   }
   html += '</div>';
 
   DAY_ORDER.forEach(d => {
     const maxLanes = eventsByDay[d].maxLanes;
     html += `<div class="hcal-row" style="min-width:900px"><div class="day-label">${DAY_NAMES[d]}</div>`;
-    html += `<div class="day-grid" style="--slots:${HALF_HOURS};grid-template-rows:repeat(${maxLanes},30px)">`;
-    for (let i = 0; i < HALF_HOURS; i++) {
-      html += `<div class="grid-line ${i%2===0?'full-hour':''}" style="grid-column:${i+1};grid-row:1/${maxLanes+1}"></div>`;
+    html += `<div class="day-grid" style="--slots:${SLOTS};grid-template-rows:repeat(${maxLanes},30px)">`;
+    for (let i = 0; i < SLOTS; i += 6) {
+      html += `<div class="grid-line ${i%12===0?'full-hour':''}" style="grid-column:${i+1};grid-row:1/${maxLanes+1}"></div>`;
     }
     eventsByDay[d].forEach(ev => {
-      const colStart = Math.floor(timeToSlot(ev.timeFrom)) + 1;
-      const colEnd = Math.ceil(timeToSlot(ev.timeTo)) + 1;
+      const colStart = timeToSlot(ev.timeFrom) + 1;
+      const colEnd = timeToSlot(ev.timeTo) + 1;
       const col = getLocColor(ev.locKey);
       const cls = ev.isCustom ? 'custom-ev' : '';
       // All events are clickable (custom have negative IDs which work fine)
