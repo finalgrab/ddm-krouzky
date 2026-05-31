@@ -1,0 +1,96 @@
+{
+  "selected": {
+    "vojta": [
+      -1779730686794,
+      -1780234037728
+    ],
+    "krystof": [
+      -1779730695647,
+      -1780234055779
+    ],
+    "eli": [
+      -1779730648131,
+      -1779730571839
+    ],
+    "kaja": [],
+    "maja": [],
+    "bara": []
+  },
+  "checked": {
+    "vojta": [
+      -1779730686794,
+      -1780234037728
+    ],
+    "krystof": [
+      -1779730695647,
+      -1780234055779
+    ],
+    "eli": [
+      -1779730571839,
+      -1779730648131
+    ],
+    "kaja": [],
+    "maja": [],
+    "bara": []
+  },
+  "custom": {
+    "vojta": [
+      {
+        "id": 1779730686794,
+        "name": "Skaut",
+        "day": "ČT",
+        "timeFrom": "17:00",
+        "timeTo": "18:30",
+        "location": "Čihákova"
+      },
+      {
+        "id": 1780234037728,
+        "name": "Náboženství",
+        "day": "ČT",
+        "timeFrom": "15:00",
+        "timeTo": "16:00",
+        "location": "Terezička"
+      }
+    ],
+    "krystof": [
+      {
+        "id": 1779730695647,
+        "name": "Skaut",
+        "day": "ČT",
+        "timeFrom": "17:00",
+        "timeTo": "18:30",
+        "location": "Čihákova"
+      },
+      {
+        "id": 1780234055779,
+        "name": "Náboženství",
+        "day": "ČT",
+        "timeFrom": "15:00",
+        "timeTo": "16:00",
+        "location": "Terezička"
+      }
+    ],
+    "eli": [
+      {
+        "id": 1779730571839,
+        "name": "Skaut",
+        "day": "PO",
+        "timeFrom": "16:30",
+        "timeTo": "18:30",
+        "location": "Čihákova"
+      },
+      {
+        "id": 1779730648131,
+        "name": "Náboženství",
+        "day": "ST",
+        "timeFrom": "15:30",
+        "timeTo": "16:40",
+        "location": "Karlín/Vysočany"
+      }
+    ],
+    "kaja": [],
+    "maja": [],
+    "bara": []
+  },
+  "savedAt": "2026-05-31T13:40:22.775Z"
+}
