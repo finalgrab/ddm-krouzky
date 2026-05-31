@@ -50,14 +50,6 @@
         "timeFrom": "15:00",
         "timeTo": "16:00",
         "location": "Terezička"
-      },
-      {
-        "id": 1780235098171,
-        "name": "neco",
-        "day": "PO",
-        "timeFrom": "15:00",
-        "timeTo": "16:00",
-        "location": ""
       }
     ],
     "krystof": [
@@ -100,5 +92,5 @@
     "maja": [],
     "bara": []
   },
-  "savedAt": "2026-05-31T13:45:20.936Z"
+  "savedAt": "2026-05-31T13:45:23.025Z"
 }
