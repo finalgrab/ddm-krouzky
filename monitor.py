@@ -61,7 +61,7 @@ def format_course(c: dict) -> str:
         f'    Kdy: {sched}\n'
         f'    Kde: {c.get("locationFull", c.get("locationAbbr", ""))}\n'
         f'    Stav: {c.get("status", "")}\n'
-        f'    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id={c["id"]}'
+        f'    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id={c["id"]}'
     )
 
 
