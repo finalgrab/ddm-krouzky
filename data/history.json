@@ -496,5 +496,17 @@
       "Výtvarný ateliér / starší II",
       "Výtvarný ateliér / starší III"
     ]
+  },
+  {
+    "timestamp": "2026-06-01T18:36:31.365025",
+    "event": "new_courses",
+    "courseIds": [
+      17886,
+      17887
+    ],
+    "courseNames": [
+      "Klavír - skupina I",
+      "Klavír - skupina II"
+    ]
   }
 ]

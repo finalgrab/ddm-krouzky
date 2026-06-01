@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-01T12:35:09.548208",
-  "totalCourses": 237,
+  "scrapedAt": "2026-06-01T18:36:31.365025",
+  "totalCourses": 239,
   "courses": [
     {
       "id": 17404,
@@ -74,7 +74,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17474",
       "startDate": "2026-09-15"
     },
@@ -378,7 +378,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17637",
       "startDate": "2026-09-14"
     },
@@ -397,7 +397,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17640",
       "startDate": "2026-09-15"
     },
@@ -1293,6 +1293,44 @@
       "startDate": "2026-09-16"
     },
     {
+      "id": 17886,
+      "name": "Klavír - skupina I",
+      "ageFrom": 6,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17886",
+      "startDate": "2026-10-07"
+    },
+    {
+      "id": 17887,
+      "name": "Klavír - skupina II",
+      "ageFrom": 6,
+      "ageTo": 7,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "14:00",
+          "timeTo": "15:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17887",
+      "startDate": "2026-10-01"
+    },
+    {
       "id": 17653,
       "name": "Klavír / B. Slavíková (děti)",
       "ageFrom": 6,
@@ -1326,7 +1364,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17967",
       "startDate": "2026-10-02"
     },
@@ -1725,7 +1763,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17430",
       "startDate": "2026-09-14"
     },
@@ -2711,7 +2749,7 @@
     {
       "id": 17487,
       "name": "Street dance I – pondělí",
-      "ageFrom": 8,
+      "ageFrom": 7,
       "ageTo": 11,
       "schedules": [
         {
@@ -2723,7 +2761,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17487",
       "startDate": "2026-09-14"
     },
@@ -2731,7 +2769,7 @@
       "id": 17488,
       "name": "Street dance I – středa",
       "ageFrom": 6,
-      "ageTo": 8,
+      "ageTo": 10,
       "schedules": [
         {
           "day": "ST",
@@ -2768,7 +2806,7 @@
     {
       "id": 17582,
       "name": "Street dance II – středa",
-      "ageFrom": 11,
+      "ageFrom": 10,
       "ageTo": 15,
       "schedules": [
         {
@@ -2875,7 +2913,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17606",
       "startDate": "2026-09-14"
     },
@@ -3849,7 +3887,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17395",
       "startDate": "2026-10-05"
     },
@@ -4096,7 +4134,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17599",
       "startDate": "2026-09-14"
     },

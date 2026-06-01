@@ -1,184 +1,22 @@
-Nalezeno 16 nových kroužků pro školní rok 2026/27!
+Nalezeno 2 nových kroužků pro školní rok 2026/27!
 
-Čas: 2026-06-01T12:35:09.548208
-
-
-==================================================
-Kroužky pro Vojta (11 let) (4):
-==================================================
-
-  Hraní deskových her (mladší)
-    Věk: 8–12 let
-    Kdy: ÚT 17:00–19:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17920
-
-  Výtvarný ateliér / starší I
-    Věk: 11–14 let
-    Kdy: PO 16:15–17:45
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17594
-
-  Výtvarný ateliér / starší II
-    Věk: 10–14 let
-    Kdy: ST 16:00–17:30
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17595
-
-  Výtvarný ateliér / starší III
-    Věk: 10–14 let
-    Kdy: ČT 16:00–17:30
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17596
+Čas: 2026-06-01T18:36:31.365025
 
 
 ==================================================
-Kroužky pro Kryštof (10 let) (7):
+Kroužky pro Eli (7 let) (2):
 ==================================================
 
-  Hraní deskových her (mladší)
-    Věk: 8–12 let
-    Kdy: ÚT 17:00–19:00
+  Klavír - skupina I
+    Věk: 6–7 let
+    Kdy: ST 14:00–15:00
     Kde: Karlínské Spektrum
     Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17920
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17886
 
-  Převod - Klub 1 / pondělí / 13-14 h
-    Věk: 6–10 let
-    Kdy: PO 13:00–14:00
+  Klavír - skupina II
+    Věk: 6–7 let
+    Kdy: ČT 14:00–15:00
     Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17618
-
-  Převod - Klub 2 / úterý / 13-14 h
-    Věk: 6–10 let
-    Kdy: ÚT 13:00–14:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17619
-
-  Převod - Klub 3 / středa / 13-14 h
-    Věk: 6–10 let
-    Kdy: ST 13:00–14:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17620
-
-  Převod - Klub 4 / čtvrtek / 13-14 h
-    Věk: 6–10 let
-    Kdy: ČT 13:00–14:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17621
-
-  Výtvarný ateliér / starší II
-    Věk: 10–14 let
-    Kdy: ST 16:00–17:30
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17595
-
-  Výtvarný ateliér / starší III
-    Věk: 10–14 let
-    Kdy: ČT 16:00–17:30
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17596
-
-
-==================================================
-Kroužky pro Eli (7 let) (7):
-==================================================
-
-  Převod - Klub 1 / pondělí / 13-14 h
-    Věk: 6–10 let
-    Kdy: PO 13:00–14:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17618
-
-  Převod - Klub 2 / úterý / 13-14 h
-    Věk: 6–10 let
-    Kdy: ÚT 13:00–14:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17619
-
-  Převod - Klub 3 / středa / 13-14 h
-    Věk: 6–10 let
-    Kdy: ST 13:00–14:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17620
-
-  Převod - Klub 4 / čtvrtek / 13-14 h
-    Věk: 6–10 let
-    Kdy: ČT 13:00–14:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17621
-
-  Výtvarný ateliér / mladší II
-    Věk: 6–9 let
-    Kdy: ÚT 14:30–16:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17591
-
-  Výtvarný ateliér / mladší III
-    Věk: 6–9 let
-    Kdy: ST 14:30–15:30
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17592
-
-  Výtvarný ateliér / mladší IV
-    Věk: 6–9 let
-    Kdy: ČT 14:30–15:30
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17593
-
-
-==================================================
-Ostatní nové kroužky (5):
-==================================================
-
-  Digitální svět bez filtru
-    Věk: 12–15 let
-    Kdy: ST 16:00–17:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17966
-
-  Eko život v praxi
-    Věk: 13–17 let
-    Kdy: ST 17:30–18:30
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17985
-
-  Hraní deskových her (starší)
-    Věk: 13–18 let
-    Kdy: PO 17:00–19:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17921
-
-  Pastelka I
-    Věk: 4–6 let
-    Kdy: PO 15:00–16:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17597
-
-  Příprava na talentové zkoušky
-    Věk: 13–18 let
-    Kdy: ČT 18:00–20:00
-    Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky#id=17605
+    Stav: POSLEDNÍ VOLNÁ MÍSTA
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17887
