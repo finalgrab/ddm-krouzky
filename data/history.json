@@ -444,5 +444,17 @@
       "ZŠ Pernerova – Florbal / mladší",
       "ZŠ Pernerova – Florbal / starší"
     ]
+  },
+  {
+    "timestamp": "2026-06-01T01:38:10.471805",
+    "event": "new_courses",
+    "courseIds": [
+      17404,
+      17362
+    ],
+    "courseNames": [
+      "3D grafika a 3D tisk",
+      "Divadelní kroužek I"
+    ]
   }
 ]
