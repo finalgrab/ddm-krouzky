@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-01T18:36:31.365025",
-  "totalCourses": 239,
+  "scrapedAt": "2026-06-01T21:59:02.913963",
+  "totalCourses": 241,
   "courses": [
     {
       "id": 17404,
@@ -150,7 +150,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17418",
       "startDate": "2026-09-14"
     },
@@ -169,7 +169,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17419",
       "startDate": "2026-09-14"
     },
@@ -561,7 +561,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17643",
       "startDate": "2026-10-07"
     },
@@ -984,7 +984,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17427",
       "startDate": "2026-09-17"
     },
@@ -1307,7 +1307,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17886",
       "startDate": "2026-10-07"
     },
@@ -1402,7 +1402,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17884",
       "startDate": "2026-10-07"
     },
@@ -1706,7 +1706,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17510",
       "startDate": "2026-09-16"
     },
@@ -1744,7 +1744,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17429",
       "startDate": "2026-09-16"
     },
@@ -1858,7 +1858,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17435",
       "startDate": "2026-09-18"
     },
@@ -2191,7 +2191,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17436",
       "startDate": "2026-09-14"
     },
@@ -2210,7 +2210,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17437",
       "startDate": "2026-09-14"
     },
@@ -3474,6 +3474,44 @@
       "startDate": "2026-10-05"
     },
     {
+      "id": 17661,
+      "name": "Zpěv / L. Paďourová (děti)",
+      "ageFrom": 6,
+      "ageTo": 17,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17661",
+      "startDate": "2026-10-06"
+    },
+    {
+      "id": 17662,
+      "name": "Zpěv / L. Paďourová (dospělí)",
+      "ageFrom": 18,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "13:00",
+          "timeTo": "19:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17662",
+      "startDate": "2026-10-06"
+    },
+    {
       "id": 17664,
       "name": "Zpívánky pro předškoláky",
       "ageFrom": 3,
@@ -4419,7 +4457,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17466",
       "startDate": "2026-09-15"
     },
@@ -4457,7 +4495,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17464",
       "startDate": "2026-09-14"
     },
@@ -4476,7 +4514,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17465",
       "startDate": "2026-09-14"
     }

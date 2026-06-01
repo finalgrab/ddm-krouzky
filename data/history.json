@@ -508,5 +508,17 @@
       "Klavír - skupina I",
       "Klavír - skupina II"
     ]
+  },
+  {
+    "timestamp": "2026-06-01T21:59:02.913963",
+    "event": "new_courses",
+    "courseIds": [
+      17661,
+      17662
+    ],
+    "courseNames": [
+      "Zpěv / L. Paďourová (děti)",
+      "Zpěv / L. Paďourová (dospělí)"
+    ]
   }
 ]

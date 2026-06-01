@@ -1,22 +1,51 @@
 Nalezeno 2 nových kroužků pro školní rok 2026/27!
 
-Čas: 2026-06-01T18:36:31.365025
+Čas: 2026-06-01T21:59:02.913963
 
 
 ==================================================
-Kroužky pro Eli (7 let) (2):
+Kroužky pro Vojta (11 let) (1):
 ==================================================
 
-  Klavír - skupina I
-    Věk: 6–7 let
-    Kdy: ST 14:00–15:00
+  Zpěv / L. Paďourová (děti)
+    Věk: 6–17 let
+    Kdy: ÚT 13:00–19:00
     Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17886
+    Stav: JEN NÁHRADNÍCI
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17661
 
-  Klavír - skupina II
-    Věk: 6–7 let
-    Kdy: ČT 14:00–15:00
+
+==================================================
+Kroužky pro Kryštof (10 let) (1):
+==================================================
+
+  Zpěv / L. Paďourová (děti)
+    Věk: 6–17 let
+    Kdy: ÚT 13:00–19:00
     Kde: Karlínské Spektrum
-    Stav: POSLEDNÍ VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17887
+    Stav: JEN NÁHRADNÍCI
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17661
+
+
+==================================================
+Kroužky pro Eli (7 let) (1):
+==================================================
+
+  Zpěv / L. Paďourová (děti)
+    Věk: 6–17 let
+    Kdy: ÚT 13:00–19:00
+    Kde: Karlínské Spektrum
+    Stav: JEN NÁHRADNÍCI
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17661
+
+
+==================================================
+Ostatní nové kroužky (1):
+==================================================
+
+  Zpěv / L. Paďourová (dospělí)
+    Věk: 18–99 let
+    Kdy: ÚT 13:00–19:00
+    Kde: Karlínské Spektrum
+    Stav: JEN NÁHRADNÍCI
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17662
