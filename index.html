@@ -107,6 +107,9 @@
       .hcal-header, .hcal-row { min-width: 900px; }
     }
 
+    .collapsible-toggle { background: var(--card-bg); border-radius: var(--radius); padding: 10px 16px; margin-bottom: 12px; cursor: pointer; font-size: 0.9rem; font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.1); user-select: none; }
+    .collapsible-toggle:hover { background: #f9fafb; }
+
     .sync-panel { background: var(--card-bg); border-radius: var(--radius); margin-bottom: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); overflow: hidden; }
     .sync-header { display: flex; align-items: center; gap: 10px; padding: 10px 16px; cursor: pointer; user-select: none; font-size: 0.9rem; font-weight: 500; }
     .sync-header:hover { background: #f9fafb; }
@@ -170,6 +173,10 @@
     </div>
   </div>
 
+  <div class="collapsible-toggle" onclick="toggleCoursePanel()">
+    <span id="coursePanelLabel">▼ Vlastní kroužky &amp; výběr</span>
+  </div>
+  <div id="coursePanel">
   <div class="custom-section">
     <h3>Vlastní kroužky (odjinud)</h3>
     <div class="custom-form" id="customForm">
@@ -211,6 +218,7 @@
 
   <div class="course-count" id="courseCount"></div>
   <div class="courses-grid" id="coursesGrid"></div>
+  </div>
 
   <div class="calendar-section" id="previewSection" style="display:none">
     <h2>Zaškrtnuté kroužky v kalendáři</h2>
@@ -326,6 +334,14 @@ const GITHUB_STATE_FILE = 'data/user_state.json';
 let githubToken = localStorage.getItem('ddm-github-token') || '';
 let githubFileSha = null;
 let syncDebounceTimer = null;
+
+function toggleCoursePanel() {
+  const panel = document.getElementById('coursePanel');
+  const label = document.getElementById('coursePanelLabel');
+  const collapsed = panel.style.display === 'none';
+  panel.style.display = collapsed ? '' : 'none';
+  label.innerHTML = collapsed ? '▼ Vlastní kroužky &amp; výběr' : '▶ Vlastní kroužky &amp; výběr';
+}
 
 function setSyncStatus(type, text) {
   const badge = document.getElementById('syncStatusBadge');
