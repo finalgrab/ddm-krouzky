@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-02T08:26:56.870030",
-  "totalCourses": 242,
+  "scrapedAt": "2026-06-02T12:25:27.707083",
+  "totalCourses": 243,
   "courses": [
     {
       "id": 17404,
@@ -209,6 +209,25 @@
       "locationFull": "Karlínské Spektrum",
       "status": "VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17601",
+      "startDate": "2026-09-14"
+    },
+    {
+      "id": 17524,
+      "name": "Design a architektura",
+      "ageFrom": 13,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "17:45",
+          "timeTo": "19:15"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17524",
       "startDate": "2026-09-14"
     },
     {
@@ -510,7 +529,7 @@
     },
     {
       "id": 17985,
-      "name": "Eko život v praxi",
+      "name": "Ekoživot v praxi",
       "ageFrom": 13,
       "ageTo": 17,
       "schedules": [
@@ -1117,7 +1136,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17383",
       "startDate": "2026-09-17"
     },
@@ -1158,6 +1177,25 @@
       "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17385",
       "startDate": "2026-09-15"
+    },
+    {
+      "id": 17386,
+      "name": "Keramika – točení na kruhu III",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:30",
+          "timeTo": "18:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17386",
+      "startDate": "2026-09-17"
     },
     {
       "id": 17387,
@@ -1231,7 +1269,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17390",
       "startDate": "2026-09-14"
     },
@@ -1725,7 +1763,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17626",
       "startDate": "2026-09-17"
     },
@@ -1972,7 +2010,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17409",
       "startDate": "2026-09-17"
     },
@@ -2780,7 +2818,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "POSLEDNÍ VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17487",
       "startDate": "2026-09-14"
     },
@@ -3319,25 +3357,6 @@
       "locationFull": "Karlínské Spektrum",
       "status": "VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17589",
-      "startDate": "2026-09-14"
-    },
-    {
-      "id": 17590,
-      "name": "Výtvarný ateliér / mladší I",
-      "ageFrom": 6,
-      "ageTo": 9,
-      "schedules": [
-        {
-          "day": "PO",
-          "dayFull": "Pondělí",
-          "timeFrom": "13:45",
-          "timeTo": "14:45"
-        }
-      ],
-      "locationAbbr": "KS",
-      "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
-      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17590",
       "startDate": "2026-09-14"
     },
     {
@@ -3944,7 +3963,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17395",
       "startDate": "2026-10-05"
     },

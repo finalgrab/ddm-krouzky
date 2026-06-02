@@ -530,5 +530,17 @@
     "courseNames": [
       "Metoda FIE a MIU (Magdalena Hříbalová)"
     ]
+  },
+  {
+    "timestamp": "2026-06-02T12:25:27.707083",
+    "event": "new_courses",
+    "courseIds": [
+      17524,
+      17386
+    ],
+    "courseNames": [
+      "Design a architektura",
+      "Keramika – točení na kruhu III"
+    ]
   }
 ]

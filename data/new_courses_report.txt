@@ -1,27 +1,22 @@
-Nalezeno 1 nových kroužků pro školní rok 2026/27!
+Nalezeno 2 nových kroužků pro školní rok 2026/27!
 
-Čas: 2026-06-02T08:26:56.870030
+Čas: 2026-06-02T12:25:27.707083
 
 
 ==================================================
-Kroužky pro Vojta (11 let) (1):
+Ostatní nové kroužky (2):
 ==================================================
 
-  Metoda FIE a MIU (Magdalena Hříbalová)
-    Věk: 10–15 let
-    Kdy: ST 15:00–16:00
+  Design a architektura
+    Věk: 13–18 let
+    Kdy: ČT 17:45–19:15
     Kde: Karlínské Spektrum
     Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17611
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17524
 
-
-==================================================
-Kroužky pro Kryštof (10 let) (1):
-==================================================
-
-  Metoda FIE a MIU (Magdalena Hříbalová)
-    Věk: 10–15 let
-    Kdy: ST 15:00–16:00
+  Keramika – točení na kruhu III
+    Věk: 16–99 let
+    Kdy: ČT 16:30–18:30
     Kde: Karlínské Spektrum
-    Stav: VOLNÁ MÍSTA
-    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17611
+    Stav: JIŽ OBSAZENO
+    Web: https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17386
