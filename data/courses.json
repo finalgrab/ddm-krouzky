@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-02T03:39:39.911887",
-  "totalCourses": 241,
+  "scrapedAt": "2026-06-02T08:26:56.870030",
+  "totalCourses": 242,
   "courses": [
     {
       "id": 17404,
@@ -1899,6 +1899,25 @@
       "status": "VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17513",
       "startDate": "2026-09-14"
+    },
+    {
+      "id": 17611,
+      "name": "Metoda FIE a MIU (Magdalena Hříbalová)",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:00",
+          "timeTo": "16:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17611",
+      "startDate": "2026-09-16"
     },
     {
       "id": 17406,

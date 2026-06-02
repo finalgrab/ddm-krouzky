@@ -520,5 +520,15 @@
       "Zpěv / L. Paďourová (děti)",
       "Zpěv / L. Paďourová (dospělí)"
     ]
+  },
+  {
+    "timestamp": "2026-06-02T08:26:56.870030",
+    "event": "new_courses",
+    "courseIds": [
+      17611
+    ],
+    "courseNames": [
+      "Metoda FIE a MIU (Magdalena Hříbalová)"
+    ]
   }
 ]
