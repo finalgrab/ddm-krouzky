@@ -552,5 +552,15 @@
     "courseNames": [
       "Výtvarný ateliér / mladší I"
     ]
+  },
+  {
+    "timestamp": "2026-06-03T10:19:20.575429",
+    "event": "new_courses",
+    "courseIds": [
+      17896
+    ],
+    "courseNames": [
+      "Dynamická jóga pro ženy"
+    ]
   }
 ]
