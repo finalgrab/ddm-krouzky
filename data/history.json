@@ -542,5 +542,15 @@
       "Design a architektura",
       "Keramika – točení na kruhu III"
     ]
+  },
+  {
+    "timestamp": "2026-06-03T00:25:55.143081",
+    "event": "new_courses",
+    "courseIds": [
+      17590
+    ],
+    "courseNames": [
+      "Výtvarný ateliér / mladší I"
+    ]
   }
 ]
