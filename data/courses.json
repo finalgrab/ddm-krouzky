@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-03T15:14:11.927049",
+  "scrapedAt": "2026-06-03T19:06:20.315723",
   "totalCourses": 245,
   "courses": [
     {
@@ -1000,7 +1000,14 @@
       "name": "Karate / dospělí",
       "ageFrom": 15,
       "ageTo": 60,
-      "schedules": [],
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "18:00",
+          "timeTo": "19:30"
+        }
+      ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
       "status": "VOLNÁ MÍSTA",
@@ -1022,7 +1029,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17427",
       "startDate": "2026-09-17"
     },
@@ -4533,7 +4540,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JIŽ OBSAZENO",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17466",
       "startDate": "2026-09-15"
     },
@@ -4571,7 +4578,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17464",
       "startDate": "2026-09-14"
     },
