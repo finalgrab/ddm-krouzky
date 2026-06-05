@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-05T07:52:59.018884",
+  "scrapedAt": "2026-06-05T11:25:21.053994",
   "totalCourses": 245,
   "courses": [
     {
@@ -1409,7 +1409,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17653",
       "startDate": "2026-10-02"
     },
@@ -1447,7 +1447,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17885",
       "startDate": "2026-10-01"
     },
@@ -1504,7 +1504,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17883",
       "startDate": "2026-10-07"
     },
