@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-09T06:47:54.190272",
+  "scrapedAt": "2026-06-09T10:33:15.159451",
   "totalCourses": 245,
   "courses": [
     {
@@ -1377,7 +1377,7 @@
     },
     {
       "id": 17887,
-      "name": "Klavír - skupina II",
+      "name": "Klavír – skupina II",
       "ageFrom": 6,
       "ageTo": 7,
       "schedules": [
@@ -3438,7 +3438,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17592",
       "startDate": "2026-09-14"
     },
