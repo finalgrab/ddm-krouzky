@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-11T06:58:51.522295",
+  "scrapedAt": "2026-06-11T11:26:19.268580",
   "totalCourses": 245,
   "courses": [
     {
@@ -4131,14 +4131,7 @@
       "name": "ZŠ LN – Klavír – I. Beidyk",
       "ageFrom": 9,
       "ageTo": 15,
-      "schedules": [
-        {
-          "day": "PÁ",
-          "dayFull": "Pátek",
-          "timeFrom": "13:00",
-          "timeTo": "20:00"
-        }
-      ],
+      "schedules": [],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
       "status": "VOLNÁ MÍSTA",
