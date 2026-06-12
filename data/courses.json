@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-12T06:39:06.518950",
+  "scrapedAt": "2026-06-12T10:59:25.865606",
   "totalCourses": 245,
   "courses": [
     {
@@ -234,7 +234,7 @@
       "id": 17966,
       "name": "Digitální svět bez filtru",
       "ageFrom": 12,
-      "ageTo": 15,
+      "ageTo": 17,
       "schedules": [
         {
           "day": "ST",
@@ -2844,7 +2844,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17487",
       "startDate": "2026-09-14"
     },
@@ -2882,7 +2882,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17489",
       "startDate": "2026-09-14"
     },
