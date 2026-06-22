@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-22T02:01:22.752440",
+  "scrapedAt": "2026-06-22T08:36:59.445729",
   "totalCourses": 245,
   "courses": [
     {
@@ -4343,7 +4343,7 @@
       ],
       "locationAbbr": "KS",
       "locationFull": "Karlínské Spektrum",
-      "status": "POSLEDNÍ VOLNÁ MÍSTA",
+      "status": "JIŽ OBSAZENO",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17460",
       "startDate": "2026-09-17"
     },
