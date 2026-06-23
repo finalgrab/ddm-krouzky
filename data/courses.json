@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-23T09:33:40.694260",
-  "totalCourses": 245,
+  "scrapedAt": "2026-06-23T12:30:40.499823",
+  "totalCourses": 246,
   "courses": [
     {
       "id": 17404,
@@ -670,6 +670,25 @@
       "locationFull": "Karlínské Spektrum",
       "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17645",
+      "startDate": "2026-10-05"
+    },
+    {
+      "id": 17649,
+      "name": "Flétna příčná / K. Braunová",
+      "ageFrom": 10,
+      "ageTo": 18,
+      "schedules": [
+        {
+          "day": "PO",
+          "dayFull": "Pondělí",
+          "timeFrom": "14:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17649",
       "startDate": "2026-10-05"
     },
     {
