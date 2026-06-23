@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-06-23T12:30:40.499823",
+  "scrapedAt": "2026-06-23T15:45:12.990704",
   "totalCourses": 246,
   "courses": [
     {
@@ -4394,8 +4394,8 @@
         {
           "day": "ST",
           "dayFull": "Středa",
-          "timeFrom": "14:00",
-          "timeTo": "15:30"
+          "timeFrom": "13:45",
+          "timeTo": "15:15"
         }
       ],
       "locationAbbr": "KS",
