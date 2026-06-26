@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-06-26T10:35:19.259614",
-  "totalCourses": 246,
+  "scrapedAt": "2026-06-26T13:08:36.670887",
+  "totalCourses": 247,
   "courses": [
     {
       "id": 17404,
@@ -671,6 +671,25 @@
       "status": "JEN NÁHRADNÍCI",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17645",
       "startDate": "2026-10-05"
+    },
+    {
+      "id": 18027,
+      "name": "Flétna pro školáky II",
+      "ageFrom": 6,
+      "ageTo": 10,
+      "schedules": [
+        {
+          "day": "ST",
+          "dayFull": "Středa",
+          "timeFrom": "15:30",
+          "timeTo": "16:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JEN NÁHRADNÍCI",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=18027",
+      "startDate": "2026-10-07"
     },
     {
       "id": 17649,

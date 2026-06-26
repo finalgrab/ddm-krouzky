@@ -572,5 +572,15 @@
     "courseNames": [
       "Flétna příčná / K. Braunová"
     ]
+  },
+  {
+    "timestamp": "2026-06-26T13:08:36.670887",
+    "event": "new_courses",
+    "courseIds": [
+      18027
+    ],
+    "courseNames": [
+      "Flétna pro školáky II"
+    ]
   }
 ]
