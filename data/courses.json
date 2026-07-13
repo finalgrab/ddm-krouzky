@@ -1,26 +1,7 @@
 {
-  "scrapedAt": "2026-07-13T20:14:53.355488",
-  "totalCourses": 247,
+  "scrapedAt": "2026-07-13T21:27:53.791523",
+  "totalCourses": 246,
   "courses": [
-    {
-      "id": 17404,
-      "name": "3D grafika a 3D tisk",
-      "ageFrom": 11,
-      "ageTo": 16,
-      "schedules": [
-        {
-          "day": "PO",
-          "dayFull": "Pondělí",
-          "timeFrom": "17:00",
-          "timeTo": "18:00"
-        }
-      ],
-      "locationAbbr": "KS",
-      "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
-      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17404",
-      "startDate": "2026-09-14"
-    },
     {
       "id": 17416,
       "name": "Airsoft I",
