@@ -1094,5 +1094,21 @@
     "courseNames": [
       "3D grafika a 3D tisk"
     ]
+  },
+  {
+    "timestamp": "2026-07-28T20:41:43.383612",
+    "event": "new_courses",
+    "courseIds": [
+      17451,
+      17592,
+      17595,
+      17661
+    ],
+    "courseNames": [
+      "VOŠ Kollárova – Míč. hry pro nejmenší",
+      "Výtvarný ateliér / mladší III",
+      "Výtvarný ateliér / starší II",
+      "Zpěv / L. Paďourová (děti)"
+    ]
   }
 ]
