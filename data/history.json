@@ -1110,5 +1110,15 @@
       "Výtvarný ateliér / starší II",
       "Zpěv / L. Paďourová (děti)"
     ]
+  },
+  {
+    "timestamp": "2026-07-28T23:28:27.957719",
+    "event": "new_courses",
+    "courseIds": [
+      17381
+    ],
+    "courseNames": [
+      "Keramika – modelování II"
+    ]
   }
 ]

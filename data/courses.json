@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-28T22:01:01.675884",
-  "totalCourses": 246,
+  "scrapedAt": "2026-07-28T23:28:27.957719",
+  "totalCourses": 247,
   "courses": [
     {
       "id": 17404,
@@ -1146,6 +1146,25 @@
       "status": "VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17380",
       "startDate": "2026-09-14"
+    },
+    {
+      "id": 17381,
+      "name": "Keramika – modelování II",
+      "ageFrom": 16,
+      "ageTo": 99,
+      "schedules": [
+        {
+          "day": "ÚT",
+          "dayFull": "Úterý",
+          "timeFrom": "18:30",
+          "timeTo": "20:30"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "JIŽ OBSAZENO",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17381",
+      "startDate": "2026-09-15"
     },
     {
       "id": 17382,
