@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-07-28T17:51:54.309862",
-  "totalCourses": 247,
+  "scrapedAt": "2026-07-28T19:18:17.498149",
+  "totalCourses": 243,
   "courses": [
     {
       "id": 17404,
@@ -3367,25 +3367,6 @@
       "startDate": "2026-09-17"
     },
     {
-      "id": 17451,
-      "name": "VOŠ Kollárova – Míč. hry pro nejmenší",
-      "ageFrom": 3,
-      "ageTo": 6,
-      "schedules": [
-        {
-          "day": "ST",
-          "dayFull": "Středa",
-          "timeFrom": "16:30",
-          "timeTo": "17:30"
-        }
-      ],
-      "locationAbbr": "KS",
-      "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
-      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17451",
-      "startDate": "2026-09-16"
-    },
-    {
       "id": 17588,
       "name": "Výtvarný ateliér / mládež I",
       "ageFrom": 12,
@@ -3462,25 +3443,6 @@
       "startDate": "2026-09-14"
     },
     {
-      "id": 17592,
-      "name": "Výtvarný ateliér / mladší III",
-      "ageFrom": 6,
-      "ageTo": 9,
-      "schedules": [
-        {
-          "day": "ST",
-          "dayFull": "Středa",
-          "timeFrom": "14:30",
-          "timeTo": "15:30"
-        }
-      ],
-      "locationAbbr": "KS",
-      "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
-      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17592",
-      "startDate": "2026-09-14"
-    },
-    {
       "id": 17593,
       "name": "Výtvarný ateliér / mladší IV",
       "ageFrom": 6,
@@ -3516,25 +3478,6 @@
       "locationFull": "Karlínské Spektrum",
       "status": "VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17594",
-      "startDate": "2026-09-14"
-    },
-    {
-      "id": 17595,
-      "name": "Výtvarný ateliér / starší II",
-      "ageFrom": 10,
-      "ageTo": 14,
-      "schedules": [
-        {
-          "day": "ST",
-          "dayFull": "Středa",
-          "timeFrom": "16:00",
-          "timeTo": "17:30"
-        }
-      ],
-      "locationAbbr": "KS",
-      "locationFull": "Karlínské Spektrum",
-      "status": "VOLNÁ MÍSTA",
-      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17595",
       "startDate": "2026-09-14"
     },
     {
@@ -3593,25 +3536,6 @@
       "status": "VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17919",
       "startDate": "2026-10-05"
-    },
-    {
-      "id": 17661,
-      "name": "Zpěv / L. Paďourová (děti)",
-      "ageFrom": 6,
-      "ageTo": 17,
-      "schedules": [
-        {
-          "day": "ÚT",
-          "dayFull": "Úterý",
-          "timeFrom": "13:00",
-          "timeTo": "19:00"
-        }
-      ],
-      "locationAbbr": "KS",
-      "locationFull": "Karlínské Spektrum",
-      "status": "JEN NÁHRADNÍCI",
-      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17661",
-      "startDate": "2026-10-06"
     },
     {
       "id": 17662,
