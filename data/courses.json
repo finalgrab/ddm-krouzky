@@ -1,6 +1,6 @@
 {
-  "scrapedAt": "2026-08-07T09:30:17.803016",
-  "totalCourses": 247,
+  "scrapedAt": "2026-08-07T10:49:15.208353",
+  "totalCourses": 248,
   "courses": [
     {
       "id": 17404,
@@ -766,6 +766,25 @@
       "status": "VOLNÁ MÍSTA",
       "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=17585",
       "startDate": "2026-09-14"
+    },
+    {
+      "id": 18034,
+      "name": "Herec/moderátor",
+      "ageFrom": 10,
+      "ageTo": 15,
+      "schedules": [
+        {
+          "day": "ČT",
+          "dayFull": "Čtvrtek",
+          "timeFrom": "16:00",
+          "timeTo": "18:00"
+        }
+      ],
+      "locationAbbr": "KS",
+      "locationFull": "Karlínské Spektrum",
+      "status": "VOLNÁ MÍSTA",
+      "url": "https://ddmpraha.cz/karlinske-spektrum/krouzky?id=18034",
+      "startDate": "2026-09-17"
     },
     {
       "id": 17920,
@@ -4312,7 +4331,7 @@
     {
       "id": 17668,
       "name": "ZŠ LN Pernerova – Bicí",
-      "ageFrom": 8,
+      "ageFrom": 9,
       "ageTo": 15,
       "schedules": [
         {

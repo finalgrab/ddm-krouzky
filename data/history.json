@@ -1120,5 +1120,15 @@
     "courseNames": [
       "Keramika – modelování II"
     ]
+  },
+  {
+    "timestamp": "2026-08-07T10:49:15.208353",
+    "event": "new_courses",
+    "courseIds": [
+      18034
+    ],
+    "courseNames": [
+      "Herec/moderátor"
+    ]
   }
 ]
